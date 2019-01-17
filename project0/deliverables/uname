@@ -1,0 +1,5 @@
+# CS3013-C19 Edited by Rui Huang (rhuang2)
+# Following message is the output of the command:
+	$ uname -a
+# Output:
+	Linux rui-VirtualBox 4.4.162rhuang2 #1 SMP Sat Jan 12 03:03:19 EST 2019 i686 i686 i686 GNU/Linux
