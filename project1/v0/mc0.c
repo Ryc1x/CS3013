@@ -9,50 +9,70 @@
 char* commands[] = {"whoami", "last", "ls", NULL};
 
 void print_menu() {
-    printf("\n===== Mid-Day Commander, v0 ===== \n");
-    printf("G’day, Commander! What command would you like to run? \n");
+    printf("\nG’day, Commander! What command would you like to run? \n");
     printf("   0. whoami  : Prints out the result of the whoami command \n");
     printf("   1. last    : Prints out the result of the last command \n");
     printf("   2. ls      : Prints out the result of a listing on a user-specified path \n");
 }
 
 int main(int argc, char const *argv[]){
-    while(1){
+    int c;
+    printf("===== Mid-Day Commander, v0 =====");
+    while(!feof(stdin)){
         print_menu();
 
-        int cmd;
         char* args[4] = {NULL, NULL, NULL, NULL};
         printf("Option?: ");
-        scanf("%c", &cmd);
-        printf("\n");
+        char cmd = fgetc(stdin);
+        
+        // printf("======\n");
+        // while((c=getchar()) != '\n' && c!= EOF);
 
         // --- PROCESS INPUTS ---
-        if (cmd == 0){
+
+        if (cmd != '\n') while((c=getchar()) != '\n' && c!= EOF);
+        if (cmd == '0'){
             printf("-- Who Am I? --\n");
             args[0] = "whoami";
-        } else if (cmd == 1){
+        } else if (cmd == '1'){
             printf("-- Last Logins --\n");
             args[0] = "last";
-        } else if (cmd == 2){
-            char arg[20] = "";
-            char dir[20] = "";
+        } else if (cmd == '2'){
+            char arg[20];
+            // char* argp[5] = {NULL, NULL, NULL, NULL, NULL};
+            char dir[20];
             printf("-- Directory Listing --\n");
+            
+            // prevent skip fgets
             printf("Arguments?: ");
-            scanf("%s", arg);
+            fgets(arg, 20, stdin);
+            arg[strlen(arg)-1] = '\0';
+
             printf("Path?: ");
-            scanf("%s", dir);
+            fgets(dir, 20, stdin);
+            dir[strlen(dir)-1] = '\0';
+
             args[0] = "ls";
-            args[1] = arg;
-            args[2] = dir;
-        } else {
-            printf("Invalid command input, exiting...\n");
-            return -1;
+            if (strlen(arg) != 0 && strlen(dir) != 0){
+                args[1] = arg;
+                args[2] = dir;
+            } else if (strlen(arg) != 0){
+                args[1] = arg;
+            } else if (strlen(dir) != 0){
+                args[1] = dir;
+            }
+            printf("\n");
+
+        } 
+        else {
+            printf("Invalid command input, please use the numbers above.\n");
+            continue;
         }
 
         struct timeval start, end;
         struct rusage before, after;
         gettimeofday(&start, NULL);
-        getrusage(RUSAGE_SELF, &before);
+        getrusage(RUSAGE_CHILDREN, &before);
 
         // --- FORK PROCESS ---
         pid_t pid = fork();
@@ -61,19 +81,19 @@ int main(int argc, char const *argv[]){
             return -1;
         } else if (pid == 0) {
             // 0 means child process, execute command
-            execvp(commands[cmd], args);
+            execvp(commands[cmd-48], args);
             printf("Failed to execute command\n"); // shouldn't be here
             return -1;
         }
         // else it is parent process
         wait(NULL);
         gettimeofday(&end, NULL);
-        getrusage(RUSAGE_SELF, &after);
+        getrusage(RUSAGE_CHILDREN, &after);
 
         // --- PRINT STATS ---
         printf("\n-- Statistics --\n");
-        int time = ((int)end.tv_sec - (int)start.tv_sec)*1000 + ((int)end.tv_usec - (int)start.tv_usec)/1000;
-        printf("Elapsed time: %d milliseconds\n", time);
+        double time = ((double)end.tv_sec - (double)start.tv_sec)*1000 + ((double)end.tv_usec - (double)start.tv_usec)/1000;
+        printf("Elapsed time: %.3f milliseconds\n", time);
         printf("Page Faults: %ld \n", after.ru_majflt - before.ru_majflt);
         printf("Page Faults (reclaimed): %ld \n", after.ru_minflt - before.ru_minflt);
     }
