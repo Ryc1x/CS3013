@@ -90,9 +90,9 @@ int main(int argc, char const *argv[]){
 
         // --- PROCESS INPUTS ---
         int option = -1;
+        // if(strlen(option)) while((c=getchar()) != '\n' && c!= EOF);
         sscanf(input, "%d", &option);
 
-        // --- SELECT COMMAND ---
         if (option == 0){
             printf("\n-- Who Am I? --\n");
             args[0] = "whoami";
