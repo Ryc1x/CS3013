@@ -6,4 +6,4 @@ all:
 	gcc $(SOURCES) -o $(TARGETS) $(CFLAGS)
 
 clean:
-	rm mc0
+	rm $(TARGETS)

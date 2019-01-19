@@ -8,35 +8,28 @@
 #include <ctype.h>
 
 int main(int argc, char const *argv[]){
-    char s[40];
+    char input[40];
     char* args[20];
     char* delim = " ";
     char* p;
     int number = -1;
 
     while(1){
-        // fgets(input, 5, stdin); // max+3
-        // // if()
-        // if(strlen(input) > 3){ //max+1
+        fgets(input, 10, stdin); // max+3
+        
+        // if(strlen(input) > 7){ //max+1
         //     printf("input too long\n");
-        //     if(input[3]!='\n')while(getchar() != '\n');
+        //     if(input[7]!='\n')while(getchar() != '\n');
         // }
-        // for (int i = 0; i < 5; i++){
+        // for (int i = 0; i < 10; i++){
         //     printf("%d: %d | ", i, input[i]);
         // }
-        // printf("\n");
-        //
-        // if(strlen(option)) while((c=getchar()) != '\n' && c!= EOF);
-
-        fgets(s, 40, stdin);
         
-        char* token = strtok(s, delim);
-        printf("%s\n",token);
-        int i = 0;
-        while((args[i] = strtok(NULL, delim))){
-            printf("%d:%s %p\n", i, args[i], args[i]);
-            i++;
-        }
+        char c;
+        int d;
+        sscanf(input, "%d", &d);
+        printf("%d\n",d);
+        
 
     }
 

@@ -5,27 +5,40 @@
  */
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <unistd.h>
 #include <sys/time.h>
 #include <sys/resource.h>
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <string.h>
+#include <ctype.h>
 
 #define MAX_INPUT 128
 #define MAX_ARGS 32
+#define MAX_CMDS 128
 
+char** cmdList;
 char* commands[] = {"whoami", "last", "ls", NULL};
 int argCounter = 0;
+
+void print_added_cmd(){
+    
+}
 
 /**
  * Print the menu of Midday Commander program.
  */
 void print_menu() {
     printf("\nG’day, Commander! What command would you like to run? \n");
-    printf("   0. whoami  : Prints out the result of the whoami command \n");
-    printf("   1. last    : Prints out the result of the last command \n");
-    printf("   2. ls      : Prints out the result of a listing on a user-specified path \n");
+    printf("   0. whoami\t: Prints out the result of the whoami command \n");
+    printf("   1. last\t: Prints out the result of the last command \n");
+    printf("   2. ls\t: Prints out the result of a listing on a user-specified path \n");
+    print_added_cmd();
+    printf("   a. add command\t: Adds a new command to the menu \n");
+    printf("   c. change directory\t: Changes process working directory \n");
+    printf("   e. exit\t: Leave Mid-Day Commander \n");
+    printf("   p. pwd\t: Prints working directory \n");
 }
 
 /**
@@ -36,6 +49,18 @@ void print_stats(double time, long majflt, long minflt) {
     printf("Elapsed time: %.3f milliseconds\n", time);
     printf("Page Faults: %ld \n", majflt);
     printf("Page Faults (reclaimed): %ld \n", minflt);
+}
+
+/**
+ * Free the memory and exit the program
+ */
+void exitmc(){
+    for(int i = 0; i < MAX_CMDS; i++){
+        free(cmdList[i]);
+    }
+    free(cmdList);
+    printf("Logging you out, Commander.\n");
+    exit(0);
 }
 
 /**
@@ -74,9 +99,58 @@ int readInputArgs(char** pstr, char* str){
     return 0;
 }
 
+int isnumber(char* str){
+    int i;
+    for (i = 0; i < strlen(str); i++){
+        if (!isdigit(str[i]))
+            return 0;
+    }
+    printf("%s is number.\n", str);
+    return 1;
+}
 
+/** TODO
+ * Try to find the command in the command list, return -1 if not found
+ */
+int findCommand(char* str){
+    int option;
+    char optionchar;
+    int len = strlen(str);
+    if (len == 0)
+        return -1;
+
+    // try to parse as int first
+    if (isnumber(str)){
+        sscanf(str, "%d", &option);
+        return option;
+    }
+    // then try to parse as char
+    if (len == 1) {
+        sscanf(str, "%c", &optionchar);
+        
+        if (optionchar == 'a') {
+
+        } else if (optionchar == 'c') {
+            /* code */
+        } else if (optionchar == 'e'){
+            exitmc();
+        } else if (optionchar == 'p'){
+            /* code */
+        }
+    }
+    // otherwise this is an invalid input
+    return -1;
+}
+
+/**
+ * Run Midday Commander program.
+ */
 int main(int argc, char const *argv[]){
-    printf("===== Mid-Day Commander, v0 =====");
+    printf("===== Mid-Day Commander, v1 =====");
+    cmdList = (char**) malloc(sizeof(char*) * MAX_CMDS);
+    for (int i = 0; i < MAX_CMDS; i++){
+        cmdList[i] = (char*) malloc(sizeof(char) * MAX_INPUT);
+    }
 
     while(!feof(stdin)){
         char* args[MAX_ARGS+2];
@@ -87,12 +161,9 @@ int main(int argc, char const *argv[]){
         printf("Option?: ");
         // --- INPUT CHECK ---
         if(readInput(input)) continue;
+        int option = findCommand(input);
 
         // --- PROCESS INPUTS ---
-        int option = -1;
-        // if(strlen(option)) while((c=getchar()) != '\n' && c!= EOF);
-        sscanf(input, "%d", &option);
-
         if (option == 0){
             printf("\n-- Who Am I? --\n");
             args[0] = "whoami";
