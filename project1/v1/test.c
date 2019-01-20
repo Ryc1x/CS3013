@@ -1,3 +1,7 @@
+/**
+ * This file is a temporary c file used for testing functions
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

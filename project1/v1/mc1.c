@@ -19,17 +19,22 @@
 #define MAX_CMDS 128
 
 char** cmdList;
-char* commands[] = {"whoami", "last", "ls", NULL};
+char* input;
+char** args;
 int argCounter = 0;
+int cmdlen = 0;
 
 void print_added_cmd(){
-    
+    for(int i = 0; i < cmdlen; i++){
+        printf("   %d. %s\t: User added command\n", i+3, cmdList[i]);
+    }
 }
 
 /**
  * Print the menu of Midday Commander program.
  */
 void print_menu() {
+    printf("\n=====================================================================");
     printf("\nG’day, Commander! What command would you like to run? \n");
     printf("   0. whoami\t: Prints out the result of the whoami command \n");
     printf("   1. last\t: Prints out the result of the last command \n");
@@ -39,10 +44,11 @@ void print_menu() {
     printf("   c. change directory\t: Changes process working directory \n");
     printf("   e. exit\t: Leave Mid-Day Commander \n");
     printf("   p. pwd\t: Prints working directory \n");
+    printf("Option?: ");
 }
 
 /**
- * Print tthe statistics after executing a process
+ * Print the statistics after executing a process
  */
 void print_stats(double time, long majflt, long minflt) {
     printf("\n-- Statistics --\n");
@@ -59,6 +65,8 @@ void exitmc(){
         free(cmdList[i]);
     }
     free(cmdList);
+    free(input);
+    free(args);
     printf("Logging you out, Commander.\n");
     exit(0);
 }
@@ -68,12 +76,18 @@ void exitmc(){
  */
 int readInput(char* str){
     int c;
-    fgets(str, MAX_INPUT+3, stdin);
+    // if input interrupted or EOF
+    if (fgets(str, MAX_INPUT+3, stdin) == NULL){
+        printf("\n -- No Input Detected. -- \n");
+        exitmc();
+    }
+    // if input character > MAX_INPUT
     if (strlen(str) > MAX_INPUT+1){
         printf("\nERROR: input exceeds the limit (128).\n");
         if(str[MAX_INPUT+1]!='\n') while((c=getchar()) != '\n' && c!= EOF); // clear the stdin
         return 1;
     }
+    // else valid input, replace the ending \n by \0
     if (str[strlen(str)-1] == '\n')
         str[strlen(str)-1] = '\0';
     return 0;
@@ -99,22 +113,42 @@ int readInputArgs(char** pstr, char* str){
     return 0;
 }
 
+/**
+ * Return if a string is a number
+ */
 int isnumber(char* str){
     int i;
     for (i = 0; i < strlen(str); i++){
         if (!isdigit(str[i]))
             return 0;
     }
-    printf("%s is number.\n", str);
     return 1;
 }
 
-/** TODO
- * Try to find the command in the command list, return -1 if not found
+/**
+ * Read the command from user and add to command list
+ */
+int addCommand(){
+    printf("\n-- Add a command --\n");
+    printf("Command to add?: ");
+    if(readInput(input)){
+        printf("Error when reading the command.\n");
+        return -1;
+    }
+    strcpy(cmdList[cmdlen++], input);
+    printf("Okay, added with ID [%d]\n", cmdlen+2);
+    return 0;
+}
+
+/**
+ * Try to find the given option in preset commands or command list
+ * return corresponding id if command is in command list
+ * return -1 if command not found
+ * return -2 if command is a/c/p
  */
 int findCommand(char* str){
     int option;
-    char optionchar;
+    char optchar;
     int len = strlen(str);
     if (len == 0)
         return -1;
@@ -124,19 +158,40 @@ int findCommand(char* str){
         sscanf(str, "%d", &option);
         return option;
     }
+
     // then try to parse as char
     if (len == 1) {
-        sscanf(str, "%c", &optionchar);
-        
-        if (optionchar == 'a') {
-
-        } else if (optionchar == 'c') {
-            /* code */
-        } else if (optionchar == 'e'){
+        sscanf(str, "%c", &optchar);
+        if (optchar == 'a') {
+            // 'a': add command
+            addCommand();
+        } else if (optchar == 'c') {
+            // 'c': change working direcotry
+            char wd[MAX_INPUT+3];
+            printf("\n-- Change Directory --\n");
+            printf("New Direcotry?: ");
+            if(readInput(wd))
+                return -2;
+            if(chdir(wd))
+                printf("Failed to change directory");
+        } else if (optchar == 'e'){
+            // 'e': exit program
             exitmc();
-        } else if (optionchar == 'p'){
-            /* code */
+        } else if (optchar == 'p'){
+            // 'p': print working direcotry
+            char cwd[128];
+            if (getcwd(cwd, 128) == NULL){
+                printf("\nCurrent path length is too long to be printed.\n");
+            } else {
+                printf("\n-- Current Directory --\n");
+                printf("Directory: %s\n", cwd);
+            }
+        } else {
+            // not recognized character
+            return -1;
         }
+        // return -2 indicates performed a/c/p action
+        return -2;
     }
     // otherwise this is an invalid input
     return -1;
@@ -147,37 +202,42 @@ int findCommand(char* str){
  */
 int main(int argc, char const *argv[]){
     printf("===== Mid-Day Commander, v1 =====");
+
+    // allocate memories
+    input = (char*) malloc(sizeof(char*) * (MAX_INPUT + 3));
+    args = (char**) malloc(sizeof(char**) * (MAX_ARGS + 2));
     cmdList = (char**) malloc(sizeof(char*) * MAX_CMDS);
     for (int i = 0; i < MAX_CMDS; i++){
-        cmdList[i] = (char*) malloc(sizeof(char) * MAX_INPUT);
+        cmdList[i] = (char*) malloc(sizeof(char) * (MAX_INPUT + 3));
     }
 
-    while(!feof(stdin)){
-        char* args[MAX_ARGS+2];
-        char input[MAX_INPUT+3];
+    while(1){
+        // --- INITIALIZE ---
         argCounter = 0;
-
         print_menu();
-        printf("Option?: ");
+
         // --- INPUT CHECK ---
         if(readInput(input)) continue;
         int option = findCommand(input);
 
-        // --- PROCESS INPUTS ---
+        // --- SELECT COMMAND ---
         if (option == 0){
+            // 0: whoami
             printf("\n-- Who Am I? --\n");
             args[0] = "whoami";
             args[1] = NULL;
         } else if (option == 1){
+            // 1: last
             printf("\n-- Last Logins --\n");
             args[0] = "last";
             args[1] = NULL;
         } else if (option == 2){
+            // 2: ls
             char arginput[MAX_INPUT+3];
             char pathinput[MAX_INPUT+3];
             printf("\n-- Directory Listing --\n");
             args[argCounter++] = "ls";
-            
+
             // get arguments
             printf("Arguments?: ");
             if(readInput(arginput)) continue;
@@ -187,8 +247,17 @@ int main(int argc, char const *argv[]){
             if(readInputArgs(args, pathinput)) continue;
 
             printf("\n");
+        } else if (option >= 3 && option < cmdlen+3){
+            // user defined commands
+            char cmdstr[MAX_INPUT+3];
+            strcpy(cmdstr, cmdList[option-3]);
+            printf("\n-- Command: %s --\n", cmdstr);
+            readInputArgs(args, cmdstr);
         } else {
-            printf("\nInvalid command input, please use the options above.\n");
+            // invalid option or a/c/p action
+            if (option != -2){
+                printf("\nInvalid command input, please use the options above.\n");
+            }
             continue;
         }
 
@@ -198,11 +267,11 @@ int main(int argc, char const *argv[]){
         gettimeofday(&start, NULL);
         getrusage(RUSAGE_CHILDREN, &before);
         
-        // printf("command: \n\t");
-        // for(int i = 0; i <= argCounter; i++){
-        //     printf("[%s]", args[i]);
-        // }
-        // printf("\n");
+        printf("command: \n\t");
+        for(int i = 0; i <= argCounter; i++){
+            printf("[%s]", args[i]);
+        }
+        printf("\n");
 
         // --- FORK PROCESS ---
         pid_t pid = fork();
@@ -211,7 +280,7 @@ int main(int argc, char const *argv[]){
             return -1;
         } else if (pid == 0) {
             // child process
-            execvp(commands[option], args);
+            execvp(args[0], args);
             printf("Failed to execute command\n"); // shouldn't be here
             return -1;
         }
