@@ -14,6 +14,8 @@
 #include <string.h>
 #include <ctype.h>
 
+#include "LinkedList.h"
+
 #define MAX_INPUT 128
 #define MAX_ARGS 32
 #define MAX_CMDS 128
@@ -23,6 +25,7 @@ char* input;
 char** args;
 int argCounter = 0;
 int cmdlen = 0;
+int bg = 0;
 
 /**
  * Print the user-defined commands
@@ -47,6 +50,7 @@ void print_menu() {
     printf("   c. change directory\t: Changes process working directory \n");
     printf("   e. exit\t: Leave Mid-Day Commander \n");
     printf("   p. pwd\t: Prints working directory \n");
+    printf("   r. running processes\t: Print list of running processes \n");
     printf("Option?: ");
 }
 
@@ -61,9 +65,39 @@ void print_stats(double time, long majflt, long minflt) {
 }
 
 /**
+ * Collect for any completed background process
+ */
+void collectProcesses(){
+    int status;
+    struct rusage usage;
+    struct timeval end;
+    while(1){
+        pid_t pid = wait3(&status, WNOHANG, &usage);
+        if (pid > 0){
+            gettimeofday(&end, NULL);
+            node* pnode = listGet(pid);
+            if (pnode == NULL) continue;
+            double time = (double)end.tv_sec*1000 + (double)end.tv_usec/1000 - pnode->startTime;
+            listRemove(pid);
+            print_stats(time,usage.ru_majflt,usage.ru_minflt);
+        } else {
+            return;
+        }
+    }
+    return;
+}
+
+/**
  * Free the memory and exit the program
  */
 void exitmc(){
+    if (listsize > 0){
+        printf("Waiting for background processes to complete...\n");
+        sleep(5);
+        listPrint();
+        collectProcesses();
+        exitmc();
+    }
     for(int i = 0; i < MAX_CMDS; i++){
         free(cmdList[i]);
     }
@@ -101,7 +135,14 @@ int readInput(char* str){
  * the args to the end of pstr. return 1 if exceeds the max arg/input length.
  */
 int readInputArgs(char** pstr, char* str){
-    if (strlen(str) != 0){
+    int len = strlen(str);
+    if (len != 0){
+        // if background process
+        if(str[len-1] == '&'){
+            bg = 1;
+            str[len-1] = '\0';
+        }
+        // tokenize stirng
         char* delim = " ";
         pstr[argCounter++] = strtok(str, delim);
         while ((pstr[argCounter] = strtok(NULL, delim))) {
@@ -193,11 +234,13 @@ int findCommand(char* str){
                 printf("\n-- Current Directory --\n");
                 printf("Directory: %s\n", cwd);
             }
+        } else if (optchar == 'r'){
+            listPrint();
         } else {
             // not recognized character
             return -1;
         }
-        // return -2 indicates performed a/c/p action
+        // return -2 indicates performed a/c/p/r action
         return -2;
     }
     // otherwise this is an invalid input
@@ -208,9 +251,10 @@ int findCommand(char* str){
  * Run Midday Commander program.
  */
 int main(int argc, char const *argv[]){
-    printf("===== Mid-Day Commander, v1 =====");
+    printf("===== Mid-Day Commander, v2 =====");
 
     // allocate memories
+    init();
     input = (char*) malloc(sizeof(char*) * (MAX_INPUT + 3));
     args = (char**) malloc(sizeof(char**) * (MAX_ARGS + 2));
     cmdList = (char**) malloc(sizeof(char*) * MAX_CMDS);
@@ -220,8 +264,15 @@ int main(int argc, char const *argv[]){
 
     while(1){
         // --- INITIALIZE ---
+        struct timeval start, end;
+        struct rusage usage;
+        int status;
         argCounter = 0;
+        bg = 0;
         print_menu();
+
+        // --- WAITING FOR BACKGROUND PROCESSES ---
+        collectProcesses();
 
         // --- INPUT CHECK ---
         if(readInput(input)) continue;
@@ -244,7 +295,6 @@ int main(int argc, char const *argv[]){
             char pathinput[MAX_INPUT+3];
             printf("\n-- Directory Listing --\n");
             args[argCounter++] = "ls";
-
             // get arguments
             printf("Arguments?: ");
             if(readInput(arginput)) continue;
@@ -252,7 +302,6 @@ int main(int argc, char const *argv[]){
             printf("Path?: ");
             if(readInput(pathinput)) continue;
             if(readInputArgs(args, pathinput)) continue;
-
             printf("\n");
         } else if (option >= 3 && option < cmdlen+3){
             // user defined commands
@@ -268,12 +317,11 @@ int main(int argc, char const *argv[]){
             continue;
         }
 
+        collectProcesses();
+
         // --- COLLECT INFO ---
-        struct timeval start, end;
-        struct rusage before, after;
         gettimeofday(&start, NULL);
-        getrusage(RUSAGE_CHILDREN, &before);
-        
+
         printf("command: \n\t");
         for(int i = 0; i <= argCounter; i++){
             printf("[%s]", args[i]);
@@ -286,19 +334,27 @@ int main(int argc, char const *argv[]){
             perror("Fork failed\n");
             return -1;
         } else if (pid == 0) {
-            // child process
+            // *** CHILD PROCESS ***
             execvp(args[0], args);
             printf("Failed to execute command\n"); // shouldn't be here
             return -1;
         }
-        // parent process
-        wait(NULL);
-        gettimeofday(&end, NULL);
-        getrusage(RUSAGE_CHILDREN, &after);
-
-        // --- PRINT STATS ---
-        double time = ((double)end.tv_sec - (double)start.tv_sec)*1000 + ((double)end.tv_usec - (double)start.tv_usec)/1000;
-        print_stats(time, after.ru_majflt - before.ru_majflt , after.ru_minflt - before.ru_minflt);
+        
+        collectProcesses();
+        
+        // *** PARENT PROCESS ***
+        if (bg){
+            // background command - add to list
+            double startTime = (double)start.tv_sec*1000 + (double)start.tv_usec/1000;
+            listAppend(pid, cmdList[option-3], startTime);
+            collectProcesses();
+        } else{
+            // normal command - wait 
+            wait4(pid, &status, 0, &usage);
+            gettimeofday(&end, NULL);
+            double time = ((double)end.tv_sec - (double)start.tv_sec)*1000 + ((double)end.tv_usec - (double)start.tv_usec)/1000;
+            print_stats(time,usage.ru_majflt,usage.ru_minflt);
+        }
     }
     return 0;
 }

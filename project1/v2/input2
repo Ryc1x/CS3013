@@ -1,0 +1,46 @@
+a
+sleep 4
+a
+sleep 1 &
+a
+sleep 2 &
+a
+make &
+a
+ls &
+a
+sleep 1
+a
+ls -al
+a
+sleep 3 &
+-----------------
+4
+r
+5
+r
+8
+r
+2
+-a -l
+/home
+r
+0
+1
+9
+p
+6
+c
+/home
+p
+3
+r
+----
+4
+5
+10
+r
+e
+8
+e
+3

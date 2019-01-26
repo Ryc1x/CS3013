@@ -1,0 +1,64 @@
+# This is a test file for mc2, line starts with "#" means comment
+# but it will also be read and treated as invalid input
+# BASIC COMMANDS FROM PHASE1
+0
+1
+2
+
+
+2
+-l
+/
+2
+-l -a
+. .. /
+2
+
+..
+# ADDITIONAL COMMANDS FROM PHASE2
+p
+c
+..
+p
+c
+v0
+a
+ls -l -a
+3
+a
+touch testfile
+a
+rm testfile
+4
+3
+5
+3
+# invalid inputs:
+2345678902345678923456789
+2r80u0jqnd  kahfoandfn fa..va$%*($#$1)
+1agjkaafj123f osa
+efakdfjofajafapfaew aadfpq-p1
+a really loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong input
+# USER DEFINED COMMANDS FROM PHASE3
+r
+a
+sleep 4 &
+a
+sleep 8 &
+a
+sleep 12 &
+8
+7
+6
+r
+a
+sleep 5
+9
+r
+9
+r
+9
+r
+6
+# program exit:
+e
