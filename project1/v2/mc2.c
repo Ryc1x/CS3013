@@ -76,7 +76,7 @@ void collectProcesses(){
         if (pid > 0){
             gettimeofday(&end, NULL);
             node* pnode = listGet(pid);
-            if (pnode == NULL) continue;
+            if (pnode == NULL) return;
             double time = (double)end.tv_sec*1000 + (double)end.tv_usec/1000 - pnode->startTime;
             listRemove(pid);
             print_stats(time,usage.ru_majflt,usage.ru_minflt);
@@ -93,10 +93,11 @@ void collectProcesses(){
 void exitmc(){
     if (listsize > 0){
         printf("Waiting for background processes to complete...\n");
-        sleep(5);
-        listPrint();
-        collectProcesses();
-        exitmc();
+        // sleep(5);
+        // listPrint();
+        // collectProcesses();
+        // exitmc();
+        return;
     }
     for(int i = 0; i < MAX_CMDS; i++){
         free(cmdList[i]);
@@ -316,9 +317,6 @@ int main(int argc, char const *argv[]){
             }
             continue;
         }
-
-        collectProcesses();
-
         // --- COLLECT INFO ---
         gettimeofday(&start, NULL);
 
@@ -347,7 +345,6 @@ int main(int argc, char const *argv[]){
             // background command - add to list
             double startTime = (double)start.tv_sec*1000 + (double)start.tv_usec/1000;
             listAppend(pid, cmdList[option-3], startTime);
-            collectProcesses();
         } else{
             // normal command - wait 
             wait4(pid, &status, 0, &usage);
