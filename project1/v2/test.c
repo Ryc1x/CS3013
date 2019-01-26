@@ -17,14 +17,21 @@
 int main(int argc, char const *argv[]){
     char* str1 = "testCmd";
     init();
-    listPrint();
-    listAppend(10132,str1,1);
-    listPrint();
-    struct Node* n = listGet(10132);
-    listRemove(10132);
-    listPrint();
-    listAppend(10132,str1,1);
-    listPrint();
+
+    char c;
+    int i = 1000;
+    int j = 1000;
+    while(1){
+        scanf("%d", &j);
+        while(getchar()!='\n');
+        if(j == 0){
+            i++;
+            listAppend(i,str1,1);
+        } else {
+            listRemove(j);
+        }
+        listPrint();
+    }
 
     // char input[40];
     // pid_t pid = fork();

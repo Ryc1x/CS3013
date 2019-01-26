@@ -48,7 +48,6 @@ int listAppend(pid_t pid, char* cmd, double startTime){
     tail->next = n;
     tail = n;
     listsize++;
-    printf("[%d] %d\n", listsize, pid);
     return 0;
 }
 
@@ -58,7 +57,7 @@ int listRemove(pid_t pid){
     while (p != NULL){
         if(p->pid == pid){
             listsize--;
-            tail = q;
+            if (p == tail) tail = q;
             q->next = p->next;
             free(p);
             return 0;
@@ -72,7 +71,8 @@ int listRemove(pid_t pid){
 void listPrint(){
     node* p = head->next;
     printf("\n-- Background Processes --\n");
-    printf("Processes number: [%d]\n",listsize);
+    printf("Processes number: %d\n",listsize);
+    printf("Head: %d, Tail: %d\n", head->pid, tail->pid);
     for (int i = 1; p != NULL; i++){
         printf("[%d] pid:%d command:%s\n", i, p->pid, p->cmd);
         p = p->next;

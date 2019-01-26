@@ -93,10 +93,10 @@ void collectProcesses(){
 void exitmc(){
     if (listsize > 0){
         printf("Waiting for background processes to complete...\n");
-        // sleep(5);
-        // listPrint();
-        // collectProcesses();
-        // exitmc();
+        sleep(5);
+        listPrint();
+        collectProcesses();
+        exitmc();
         return;
     }
     for(int i = 0; i < MAX_CMDS; i++){
