@@ -1,0 +1,109 @@
+README
+
+Zonglin Peng
+Rui Huang
+
+------------------phase 1-----------------------------
+Instructions:
+- change directory to part 1
+	$ cd part1
+- run make to make inter.c (kernel) and test.c (user space)
+	$ make
+- enable intercept model by sudo insmod inter.ko
+	$ sudo insmode cs3013_project2.ko
+- cd to test, make, then run test executable 
+	$ ./test
+- or simply open/close virus which contains string "VIRUS".
+
+- remove module after testing is done
+	$ sudo rmmod cs3013_project2.ko
+- finally clean the directory:
+	$ make clean
+
+
+Structure & design
+Intercept my system call 1 to print a differnt message,
+and upon exit the original call will be recoverd. Open
+and close are intercepted by a print message to 
+indecaite user info and fd, and then the old call are
+invoked. Read is called first to load the readbuffer,
+and intercepted by print message indicating if this is
+a virus or not.
+
+
+Test
+The test.c will keep open, read, and close the IAmSafe
+(virus) file and RealSafe(no virus) file 
+after every 10 second for 9 time to test
+the syslog output and virus detection. At last, the 
+intercepted syscall1 is invoked.
+
+
+Results:
+syslog output is shown at the beginning of syslog.txt,
+and user space output from ternimal:
+	cs3013_syscall1 returns: 0
+opening virus
+opening safe file
+detect virus
+normal read
+closing virus
+closing safe file
+...
+
+
+
+------------------phase 2-----------------------------
+Instructions:
+- change directory to part 2
+	$ cd part2
+- run make to make procAncestry.c and test.c
+	$ make
+- enable intercept model by sudo insmod inter.ko
+	$ sudo insmode procAncestry.ko
+- run test executable, with an optional argument pid
+ (if pid is not specified, the program will create some 
+ processes for testing)
+	$ ./test
+	OR
+	$ ./test [pid]
+
+- remove module after testing is done
+	$ sudo rmmod procAncestry.ko
+- finally clean the directory:
+	$ make clean
+
+
+Structure & design
+First, the user space will allocate space of the target
+PID and the ancestry response, and a desired PID. From 
+there the Kernel will get these two pieces of info by
+copy from user. Then the kernel will find the location
+of the PID in the process list, and assign a pointer to
+the task struct. Then the lists of both siblings and 
+children are traversed and save to response struct,
+and while loop all the parents till reach the initial.
+And the ancestry struct will be copied back to userspace.
+
+
+Test
+The test.c will allocate space for PID and response. Then
+it creates a sibling, a child if no PID is given by the user,
+or it will pass in the given PID to the system call2. Upon
+return, it will printf all the first process ID of the three.
+
+
+Results:
+syslog output is shown at the bottom of syslog.txt,
+and user space output from ternimal (for PID 1)
+user input PID: 1
+|| cs3013_syscall2: 0
+|| my children:{202, 240, 268, 602, 605, 612, 643, 645, 
+653, 708, 709, 712, 713, 716, 751, 763, 765, 775, 931, 
+998, 1005, 1258, 1297, 1367, 1448, END}
+|| my siblings:{2, END}
+|| my children:{END}
+END OF STORY
+
+
+EOF

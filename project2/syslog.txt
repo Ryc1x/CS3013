@@ -1,0 +1,2005 @@
+[33058.328823] User 1000 is opening file: /etc/localtime  
+[33058.328844] User 1000 is closing file descriptor: 17  
+[33058.356581] User 1000 is opening file: /etc/localtime  
+[33058.356603] User 1000 is closing file descriptor: 17  
+[33058.875208] User 1000 is closing file descriptor: 25  
+[33058.932843] User 1000 is closing file descriptor: 13  
+[33058.934278] User 1000 is closing file descriptor: 13  
+[33058.936413] User 1000 is closing file descriptor: 13  
+[33058.947013] User 1000 is opening file: /home/zonglinpeng/.atom/storage/application.json  
+[33058.968300] User 1000 is closing file descriptor: 166  
+[33059.170121] User 1000 is closing file descriptor: 25  
+[33059.329721] User 1000 is opening file: /etc/localtime  
+[33059.329761] User 1000 is closing file descriptor: 17  
+[33059.331101] User 1000 is opening file: /etc/localtime  
+[33059.331134] User 1000 is closing file descriptor: 17  
+[33059.712929] User 1000 is opening file: /proc/self/status  
+[33059.713106] User 1000 is closing file descriptor: 166  
+[33059.713122] User 1000 is opening file: /proc/self/status  
+[33059.713258] User 1000 is closing file descriptor: 166  
+[33059.713660] User 1000 is opening file: /proc/self/status  
+[33059.713792] User 1000 is closing file descriptor: 166  
+[33059.713800] User 1000 is opening file: /proc/self/status  
+[33059.715121] User 1000 is closing file descriptor: 166  
+[33059.726362] User 1000 is opening file: /proc/self/status  
+[33059.726494] User 1000 is closing file descriptor: 166  
+[33059.726513] User 1000 is opening file: /proc/self/status  
+[33059.726621] User 1000 is closing file descriptor: 166  
+[33059.735772] User 1000 is opening file: /proc/self/status  
+[33059.735824] User 1000 is closing file descriptor: 166  
+[33059.735832] User 1000 is opening file: /proc/self/status  
+[33059.735923] User 1000 is closing file descriptor: 166  
+[33059.741346] User 1000 is opening file: /proc/self/status  
+[33059.741396] User 1000 is closing file descriptor: 166  
+[33059.741404] User 1000 is opening file: /proc/self/status  
+[33059.741440] User 1000 is closing file descriptor: 166  
+[33059.750986] User 1000 is opening file: /proc/self/status  
+[33059.751033] User 1000 is closing file descriptor: 166  
+[33059.751041] User 1000 is opening file: /proc/self/status  
+[33059.751077] User 1000 is closing file descriptor: 166  
+[33059.760566] User 1000 is opening file: /proc/self/status  
+[33059.760615] User 1000 is closing file descriptor: 166  
+[33059.760623] User 1000 is opening file: /proc/self/status  
+[33059.760659] User 1000 is closing file descriptor: 166  
+[33059.770284] User 1000 is opening file: /proc/self/status  
+[33059.770331] User 1000 is closing file descriptor: 166  
+[33059.770338] User 1000 is opening file: /proc/self/status  
+[33059.770374] User 1000 is closing file descriptor: 166  
+[33059.779994] User 1000 is opening file: /proc/self/status  
+[33059.780043] User 1000 is closing file descriptor: 166  
+[33059.780051] User 1000 is opening file: /proc/self/status  
+[33059.780088] User 1000 is closing file descriptor: 166  
+[33059.789481] User 1000 is opening file: /proc/self/status  
+[33059.789550] User 1000 is closing file descriptor: 166  
+[33059.789630] User 1000 is opening file: /proc/self/status  
+[33059.789668] User 1000 is closing file descriptor: 166  
+[33059.799540] User 1000 is opening file: /proc/self/status  
+[33059.799592] User 1000 is closing file descriptor: 166  
+[33059.799601] User 1000 is opening file: /proc/self/status  
+[33059.799638] User 1000 is closing file descriptor: 166  
+[33059.804948] User 1000 is opening file: /dev/shm/.org.chromium.Chromium.lRcWuS  
+[33059.804967] User 1000 is opening file: /dev/shm/.org.chromium.Chromium.lRcWuS  
+[33059.804979] User 1000 is closing file descriptor: 166  
+[33059.804984] User 1000 is closing file descriptor: 172  
+[33059.804985] User 1000 is closing file descriptor: 170  
+[33059.804987] User 1000 is closing file descriptor: 166  
+[33059.805005] User 1000 is closing file descriptor: 173  
+[33059.805006] User 1000 is closing file descriptor: 170  
+[33059.805028] User 1000 is closing file descriptor: 43  
+[33059.805031] User 1000 is closing file descriptor: 60  
+[33059.805067] User 1000 is closing file descriptor: 61  
+[33059.805111] User 1000 is opening file: /dev/shm/.org.chromium.Chromium.TFRl2L  
+[33059.805120] User 1000 is opening file: /dev/shm/.org.chromium.Chromium.TFRl2L  
+[33059.805127] User 1000 is closing file descriptor: 166  
+[33059.805131] User 1000 is closing file descriptor: 172  
+[33059.805132] User 1000 is closing file descriptor: 170  
+[33059.805134] User 1000 is closing file descriptor: 166  
+[33059.805150] User 1000 is closing file descriptor: 173  
+[33059.805151] User 1000 is closing file descriptor: 170  
+[33059.805172] User 1000 is closing file descriptor: 60  
+[33059.805173] User 1000 is closing file descriptor: 61  
+[33059.805227] User 1000 is closing file descriptor: 43  
+[33059.805228] User 1000 is closing file descriptor: 62  
+[33059.805237] User 1000 is closing file descriptor: 61  
+[33059.805267] User 1000 is closing file descriptor: 60  
+[33059.805272] User 1000 is closing file descriptor: 43  
+[33059.805309] User 1000 is closing file descriptor: 166  
+[33059.805317] User 1000 is closing file descriptor: 170  
+[33059.805344] User 1000 is closing file descriptor: 166  
+[33059.805348] User 1000 is closing file descriptor: 170  
+[33060.330444] User 1000 is opening file: /etc/localtime  
+[33060.330475] User 1000 is closing file descriptor: 17  
+[33060.349087] User 1000 is opening file: /etc/localtime  
+[33060.349110] User 1000 is closing file descriptor: 17  
+[33061.330633] User 1000 is opening file: /etc/localtime  
+[33061.330679] User 1000 is closing file descriptor: 17  
+[33061.332206] User 1000 is opening file: /etc/localtime  
+[33061.332233] User 1000 is closing file descriptor: 17  
+[33062.230591] User 1000 is opening file: IAmSafe.txt  
+[33062.230626] User 1000 read from file descriptor 3 
+[33062.230627] but that read contained malicious code! 
+[33062.230630] User 1000 is closing file descriptor: 3  
+[33062.331405] User 1000 is opening file: /etc/localtime  
+[33062.331426] User 1000 is closing file descriptor: 17  
+[33062.332163] User 1000 is opening file: /etc/localtime  
+[33062.332175] User 1000 is closing file descriptor: 17  
+[33063.331663] User 1000 is opening file: /etc/localtime  
+[33063.331685] User 1000 is closing file descriptor: 17  
+[33063.332126] User 1000 is opening file: /etc/localtime  
+[33063.332137] User 1000 is closing file descriptor: 17  
+[33064.331705] User 1000 is opening file: /etc/localtime  
+[33064.331727] User 1000 is closing file descriptor: 17  
+[33064.332256] User 1000 is opening file: /etc/localtime  
+[33064.332267] User 1000 is closing file descriptor: 17  
+[33065.332529] User 1000 is opening file: /etc/localtime  
+[33065.332551] User 1000 is closing file descriptor: 17  
+[33065.332998] User 1000 is opening file: /etc/localtime  
+[33065.333008] User 1000 is closing file descriptor: 17  
+[33065.430070] User 1000 is closing file descriptor: 58  
+[33065.430093] User 1000 is opening file: /etc/hosts  
+[33065.430427] User 1000 is closing file descriptor: 58  
+[33065.435756] User 1000 is closing file descriptor: 100  
+[33065.435797] User 1000 is opening file: /etc/hosts  
+[33065.436058] User 1000 is closing file descriptor: 100  
+[33065.436382] User 1000 is closing file descriptor: 58  
+[33065.440206] User 1000 is closing file descriptor: 58  
+[33065.440335] User 1000 is closing file descriptor: 58  
+[33065.440410] User 1000 is closing file descriptor: 58  
+[33065.444205] User 1000 is closing file descriptor: 100  
+[33066.332984] User 1000 is opening file: /etc/localtime  
+[33066.333007] User 1000 is closing file descriptor: 17  
+[33066.334079] User 1000 is opening file: /etc/localtime  
+[33066.334089] User 1000 is closing file descriptor: 17  
+[33067.333833] User 1000 is opening file: /etc/localtime  
+[33067.333855] User 1000 is closing file descriptor: 17  
+[33067.334387] User 1000 is opening file: /etc/localtime  
+[33067.334398] User 1000 is closing file descriptor: 17  
+[33068.334143] User 1000 is opening file: /etc/localtime  
+[33068.334167] User 1000 is closing file descriptor: 17  
+[33068.334839] User 1000 is opening file: /etc/localtime  
+[33068.334851] User 1000 is closing file descriptor: 17  
+[33069.334603] User 1000 is opening file: /etc/localtime  
+[33069.334645] User 1000 is closing file descriptor: 17  
+[33069.335854] User 1000 is opening file: /etc/localtime  
+[33069.335888] User 1000 is closing file descriptor: 17  
+[33070.335239] User 1000 is opening file: /etc/localtime  
+[33070.335280] User 1000 is closing file descriptor: 17  
+[33070.336889] User 1000 is opening file: /etc/localtime  
+[33070.336912] User 1000 is closing file descriptor: 17  
+[33071.335857] User 1000 is opening file: /etc/localtime  
+[33071.335881] User 1000 is closing file descriptor: 17  
+[33071.336337] User 1000 is opening file: /etc/localtime  
+[33071.336348] User 1000 is closing file descriptor: 17  
+[33072.231142] User 1000 is opening file: IAmSafe.txt  
+[33072.231158] User 1000 read from file descriptor 3 
+[33072.231159] but that read contained malicious code! 
+[33072.231162] User 1000 is closing file descriptor: 3  
+[33072.336809] User 1000 is opening file: /etc/localtime  
+[33072.336832] User 1000 is closing file descriptor: 17  
+[33072.337932] User 1000 is opening file: /etc/localtime  
+[33072.337943] User 1000 is closing file descriptor: 17  
+[33073.337702] User 1000 is opening file: /etc/localtime  
+[33073.337724] User 1000 is closing file descriptor: 17  
+[33073.338164] User 1000 is opening file: /etc/localtime  
+[33073.338175] User 1000 is closing file descriptor: 17  
+[33074.339099] User 1000 is opening file: /etc/localtime  
+[33074.339121] User 1000 is closing file descriptor: 17  
+[33074.339676] User 1000 is opening file: /etc/localtime  
+[33074.339687] User 1000 is closing file descriptor: 17  
+[33075.338951] User 1000 is opening file: /dev/urandom  
+[33075.338964] User 1000 is closing file descriptor: 100  
+[33075.338966] User 1000 is closing file descriptor: 127  
+[33075.339122] User 1000 is closing file descriptor: 49  
+[33075.339149] User 1000 is closing file descriptor: 24  
+[33075.339219] User 1000 is closing file descriptor: 49  
+[33075.339249] User 1000 is closing file descriptor: 24  
+[33075.339252] User 1000 is closing file descriptor: 49  
+[33075.339478] User 1000 is opening file: /etc/localtime  
+[33075.339496] User 1000 is closing file descriptor: 17  
+[33075.339995] User 1000 is opening file: /etc/localtime  
+[33075.340006] User 1000 is closing file descriptor: 17  
+[33075.340259] User 1000 is closing file descriptor: 50  
+[33075.340382] User 1000 is closing file descriptor: 24  
+[33075.348606] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/default/https+++mail.google.com/cache/morgue/231/{84a288d7-b87b-49ed-8d57-19726db99fe7}.final  
+[33075.348657] User 1000 is closing file descriptor: 127  
+[33075.348670] User 1000 is closing file descriptor: 128  
+[33075.348703] User 1000 is closing file descriptor: 127  
+[33075.348731] User 1000 is closing file descriptor: 129  
+[33075.349208] User 1000 is closing file descriptor: 24  
+[33075.349299] User 1000 is closing file descriptor: 24  
+[33075.349302] User 1000 is closing file descriptor: 49  
+[33075.359648] User 1000 is closing file descriptor: 50  
+[33075.439113] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/default/https+++mail.google.com/idb/953658429glmaaviyle-ks-w.sqlite  
+[33075.439515] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/default/https+++mail.google.com/idb/953658429glmaaviyle-ks-w.sqlite-wal  
+[33075.440508] User 1000 is opening file: /proc/self/mountinfo  
+[33075.440682] User 1000 is closing file descriptor: 129  
+[33075.441043] User 1000 is closing file descriptor: 128  
+[33075.441191] User 1000 is closing file descriptor: 127  
+[33075.484146] User 1000 is closing file descriptor: 127  
+[33075.484166] User 1000 is opening file: /etc/hosts  
+[33075.484322] User 1000 is closing file descriptor: 127  
+[33075.494968] User 1000 is closing file descriptor: 127  
+[33075.494997] User 1000 is closing file descriptor: 127  
+[33075.495013] User 1000 is closing file descriptor: 127  
+[33076.340336] User 1000 is opening file: /etc/localtime  
+[33076.340359] User 1000 is closing file descriptor: 17  
+[33076.342660] User 1000 is opening file: /etc/localtime  
+[33076.342672] User 1000 is closing file descriptor: 17  
+[33077.340721] User 1000 is opening file: /etc/localtime  
+[33077.340743] User 1000 is closing file descriptor: 17  
+[33077.341294] User 1000 is opening file: /etc/localtime  
+[33077.341306] User 1000 is closing file descriptor: 17  
+[33078.341792] User 1000 is opening file: /etc/localtime  
+[33078.341849] User 1000 is closing file descriptor: 17  
+[33078.343194] User 1000 is opening file: /etc/localtime  
+[33078.343234] User 1000 is closing file descriptor: 17  
+[33079.155288] User 1000 is opening file: /proc/self/status  
+[33079.155405] User 1000 is closing file descriptor: 166  
+[33079.155429] User 1000 is opening file: /proc/self/status  
+[33079.155491] User 1000 is closing file descriptor: 166  
+[33079.155988] User 1000 is opening file: /proc/self/status  
+[33079.156052] User 1000 is closing file descriptor: 166  
+[33079.156070] User 1000 is opening file: /proc/self/status  
+[33079.157774] User 1000 is closing file descriptor: 166  
+[33079.166912] User 1000 is opening file: /proc/self/status  
+[33079.167022] User 1000 is closing file descriptor: 166  
+[33079.167034] User 1000 is opening file: /proc/self/status  
+[33079.167134] User 1000 is closing file descriptor: 166  
+[33079.174415] User 1000 is opening file: /proc/self/status  
+[33079.174467] User 1000 is closing file descriptor: 166  
+[33079.174475] User 1000 is opening file: /proc/self/status  
+[33079.174513] User 1000 is closing file descriptor: 166  
+[33079.184207] User 1000 is opening file: /proc/self/status  
+[33079.184257] User 1000 is closing file descriptor: 166  
+[33079.184265] User 1000 is opening file: /proc/self/status  
+[33079.184302] User 1000 is closing file descriptor: 166  
+[33079.193717] User 1000 is opening file: /proc/self/status  
+[33079.193765] User 1000 is closing file descriptor: 166  
+[33079.193773] User 1000 is opening file: /proc/self/status  
+[33079.193810] User 1000 is closing file descriptor: 166  
+[33079.203378] User 1000 is opening file: /proc/self/status  
+[33079.203426] User 1000 is closing file descriptor: 166  
+[33079.203433] User 1000 is opening file: /proc/self/status  
+[33079.203469] User 1000 is closing file descriptor: 166  
+[33079.222516] User 1000 is opening file: /proc/self/status  
+[33079.222563] User 1000 is closing file descriptor: 166  
+[33079.222571] User 1000 is opening file: /proc/self/status  
+[33079.222609] User 1000 is closing file descriptor: 166  
+[33079.342145] User 1000 is opening file: /etc/localtime  
+[33079.342245] User 1000 is closing file descriptor: 17  
+[33079.349119] User 1000 is opening file: /etc/localtime  
+[33079.349192] User 1000 is closing file descriptor: 17  
+[33079.666046] User 1000 is opening file: /proc/self/status  
+[33079.666099] User 1000 is closing file descriptor: 166  
+[33079.666109] User 1000 is opening file: /proc/self/status  
+[33079.666146] User 1000 is closing file descriptor: 166  
+[33079.675545] User 1000 is opening file: /proc/self/status  
+[33079.675593] User 1000 is closing file descriptor: 166  
+[33079.675601] User 1000 is opening file: /proc/self/status  
+[33079.675638] User 1000 is closing file descriptor: 166  
+[33079.685243] User 1000 is opening file: /proc/self/status  
+[33079.685342] User 1000 is closing file descriptor: 166  
+[33079.685352] User 1000 is opening file: /proc/self/status  
+[33079.685406] User 1000 is closing file descriptor: 166  
+[33079.694909] User 1000 is opening file: /proc/self/status  
+[33079.694957] User 1000 is closing file descriptor: 166  
+[33079.694965] User 1000 is opening file: /proc/self/status  
+[33079.695001] User 1000 is closing file descriptor: 166  
+[33079.704538] User 1000 is opening file: /proc/self/status  
+[33079.704585] User 1000 is closing file descriptor: 166  
+[33079.704592] User 1000 is opening file: /proc/self/status  
+[33079.704628] User 1000 is closing file descriptor: 166  
+[33079.714175] User 1000 is opening file: /proc/self/status  
+[33079.714222] User 1000 is closing file descriptor: 166  
+[33079.714230] User 1000 is opening file: /proc/self/status  
+[33079.714267] User 1000 is closing file descriptor: 166  
+[33079.723899] User 1000 is opening file: /proc/self/status  
+[33079.723949] User 1000 is closing file descriptor: 166  
+[33079.723957] User 1000 is opening file: /proc/self/status  
+[33079.723995] User 1000 is closing file descriptor: 166  
+[33079.839313] User 1000 is opening file: /proc/self/status  
+[33079.839368] User 1000 is closing file descriptor: 166  
+[33079.839378] User 1000 is opening file: /proc/self/status  
+[33079.839416] User 1000 is closing file descriptor: 166  
+[33079.839738] User 1000 is opening file: /proc/self/status  
+[33079.839782] User 1000 is closing file descriptor: 166  
+[33079.839812] User 1000 is opening file: /proc/self/status  
+[33079.839850] User 1000 is closing file descriptor: 166  
+[33079.849006] User 1000 is opening file: /proc/self/status  
+[33079.849057] User 1000 is closing file descriptor: 166  
+[33079.849066] User 1000 is opening file: /proc/self/status  
+[33079.849102] User 1000 is closing file descriptor: 166  
+[33079.859445] User 1000 is opening file: /proc/self/status  
+[33079.859494] User 1000 is closing file descriptor: 166  
+[33079.859503] User 1000 is opening file: /proc/self/status  
+[33079.859539] User 1000 is closing file descriptor: 166  
+[33079.868358] User 1000 is opening file: /proc/self/status  
+[33079.868406] User 1000 is closing file descriptor: 166  
+[33079.868414] User 1000 is opening file: /proc/self/status  
+[33079.868450] User 1000 is closing file descriptor: 166  
+[33079.878022] User 1000 is opening file: /proc/self/status  
+[33079.878070] User 1000 is closing file descriptor: 166  
+[33079.878079] User 1000 is opening file: /proc/self/status  
+[33079.878115] User 1000 is closing file descriptor: 166  
+[33079.887613] User 1000 is opening file: /proc/self/status  
+[33079.887660] User 1000 is closing file descriptor: 166  
+[33079.887668] User 1000 is opening file: /proc/self/status  
+[33079.887705] User 1000 is closing file descriptor: 166  
+[33079.897210] User 1000 is opening file: /proc/self/status  
+[33079.897258] User 1000 is closing file descriptor: 166  
+[33079.897265] User 1000 is opening file: /proc/self/status  
+[33079.897301] User 1000 is closing file descriptor: 166  
+[33079.926313] User 1000 is opening file: /proc/self/status  
+[33079.926462] User 1000 is closing file descriptor: 166  
+[33079.926474] User 1000 is opening file: /proc/self/status  
+[33079.926511] User 1000 is closing file descriptor: 166  
+[33080.070728] User 1000 is opening file: /proc/self/status  
+[33080.070842] User 1000 is closing file descriptor: 166  
+[33080.070877] User 1000 is opening file: /proc/self/status  
+[33080.070965] User 1000 is closing file descriptor: 166  
+[33080.080457] User 1000 is opening file: /proc/self/status  
+[33080.080505] User 1000 is closing file descriptor: 166  
+[33080.080512] User 1000 is opening file: /proc/self/status  
+[33080.080623] User 1000 is closing file descriptor: 166  
+[33080.089928] User 1000 is opening file: /proc/self/status  
+[33080.089976] User 1000 is closing file descriptor: 166  
+[33080.089984] User 1000 is opening file: /proc/self/status  
+[33080.090021] User 1000 is closing file descriptor: 166  
+[33080.339331] User 1000 is opening file: /home/zonglinpeng/.cache/mozilla/firefox/2fhgwa8r.default/cache2/entries/60059D769D21AB40F945A158C5CFD97C960B626C  
+[33080.339386] User 1000 is closing file descriptor: 127  
+[33080.343435] User 1000 is opening file: /etc/localtime  
+[33080.343452] User 1000 is closing file descriptor: 17  
+[33080.349083] User 1000 is opening file: /etc/localtime  
+[33080.349096] User 1000 is closing file descriptor: 17  
+[33081.343776] User 1000 is opening file: /etc/localtime  
+[33081.343797] User 1000 is closing file descriptor: 17  
+[33081.344264] User 1000 is opening file: /etc/localtime  
+[33081.344278] User 1000 is closing file descriptor: 17  
+[33081.854182] User 1000 is opening file: /proc/self/status  
+[33081.854357] User 1000 is closing file descriptor: 166  
+[33081.854392] User 1000 is opening file: /proc/self/status  
+[33081.854512] User 1000 is closing file descriptor: 166  
+[33081.854873] User 1000 is opening file: /proc/self/status  
+[33081.855699] User 1000 is closing file descriptor: 166  
+[33081.855709] User 1000 is opening file: /proc/self/status  
+[33081.855751] User 1000 is closing file descriptor: 166  
+[33081.863475] User 1000 is opening file: /proc/self/status  
+[33081.863525] User 1000 is closing file descriptor: 166  
+[33081.863534] User 1000 is opening file: /proc/self/status  
+[33081.863570] User 1000 is closing file descriptor: 166  
+[33081.873202] User 1000 is opening file: /proc/self/status  
+[33081.873250] User 1000 is closing file descriptor: 166  
+[33081.873258] User 1000 is opening file: /proc/self/status  
+[33081.873295] User 1000 is closing file descriptor: 166  
+[33081.882847] User 1000 is opening file: /proc/self/status  
+[33081.882895] User 1000 is closing file descriptor: 166  
+[33081.882903] User 1000 is opening file: /proc/self/status  
+[33081.882939] User 1000 is closing file descriptor: 166  
+[33081.892366] User 1000 is opening file: /proc/self/status  
+[33081.892417] User 1000 is closing file descriptor: 166  
+[33081.892425] User 1000 is opening file: /proc/self/status  
+[33081.892462] User 1000 is closing file descriptor: 166  
+[33081.901965] User 1000 is opening file: /proc/self/status  
+[33081.902014] User 1000 is closing file descriptor: 166  
+[33081.902021] User 1000 is opening file: /proc/self/status  
+[33081.902057] User 1000 is closing file descriptor: 166  
+[33081.911776] User 1000 is opening file: /proc/self/status  
+[33081.911825] User 1000 is closing file descriptor: 166  
+[33081.911834] User 1000 is opening file: /proc/self/status  
+[33081.911870] User 1000 is closing file descriptor: 166  
+[33081.921348] User 1000 is opening file: /proc/self/status  
+[33081.921415] User 1000 is closing file descriptor: 166  
+[33081.921423] User 1000 is opening file: /proc/self/status  
+[33081.921459] User 1000 is closing file descriptor: 166  
+[33081.931298] User 1000 is opening file: /proc/self/status  
+[33081.931403] User 1000 is closing file descriptor: 166  
+[33081.931411] User 1000 is opening file: /proc/self/status  
+[33081.931449] User 1000 is closing file descriptor: 166  
+[33081.940590] User 1000 is opening file: /proc/self/status  
+[33081.940638] User 1000 is closing file descriptor: 166  
+[33081.940646] User 1000 is opening file: /proc/self/status  
+[33081.940683] User 1000 is closing file descriptor: 166  
+[33081.950154] User 1000 is opening file: /proc/self/status  
+[33081.950202] User 1000 is closing file descriptor: 166  
+[33081.950209] User 1000 is opening file: /proc/self/status  
+[33081.950245] User 1000 is closing file descriptor: 166  
+[33081.959969] User 1000 is opening file: /proc/self/status  
+[33081.960018] User 1000 is closing file descriptor: 166  
+[33081.960025] User 1000 is opening file: /proc/self/status  
+[33081.960061] User 1000 is closing file descriptor: 166  
+[33081.979554] User 1000 is opening file: /proc/self/status  
+[33081.979706] User 1000 is closing file descriptor: 166  
+[33081.979732] User 1000 is opening file: /proc/self/status  
+[33081.979792] User 1000 is closing file descriptor: 166  
+[33082.231419] "'Hello world?!' More like 'Goodbye, world!' EXTERMINATE!" -- Dalek
+[33082.250336] User 1000 is opening file: /proc/self/status  
+[33082.250405] User 1000 is closing file descriptor: 166  
+[33082.250415] User 1000 is opening file: /proc/self/status  
+[33082.250452] User 1000 is closing file descriptor: 166  
+[33082.262910] User 1000 is opening file: /proc/self/status  
+[33082.262962] User 1000 is closing file descriptor: 166  
+[33082.262972] User 1000 is opening file: /proc/self/status  
+[33082.263008] User 1000 is closing file descriptor: 166  
+[33082.268324] User 1000 is opening file: /proc/self/status  
+[33082.268372] User 1000 is closing file descriptor: 166  
+[33082.268380] User 1000 is opening file: /proc/self/status  
+[33082.268416] User 1000 is closing file descriptor: 166  
+[33082.279390] User 1000 is opening file: /proc/self/status  
+[33082.279459] User 1000 is closing file descriptor: 166  
+[33082.279496] User 1000 is opening file: /proc/self/status  
+[33082.279591] User 1000 is closing file descriptor: 166  
+[33082.346884] User 1000 is opening file: /etc/localtime  
+[33082.346904] User 1000 is closing file descriptor: 17  
+[33082.351456] User 1000 is opening file: /etc/localtime  
+[33082.351467] User 1000 is closing file descriptor: 17  
+[33083.348030] User 1000 is opening file: /etc/localtime  
+[33083.348051] User 1000 is closing file descriptor: 17  
+[33083.348615] User 1000 is opening file: /etc/localtime  
+[33083.348626] User 1000 is closing file descriptor: 17  
+[33084.348401] User 1000 is opening file: /etc/localtime  
+[33084.348423] User 1000 is closing file descriptor: 17  
+[33084.348979] User 1000 is opening file: /etc/localtime  
+[33084.348990] User 1000 is closing file descriptor: 17  
+[33085.349762] User 1000 is opening file: /etc/localtime  
+[33085.349784] User 1000 is closing file descriptor: 17  
+[33085.350364] User 1000 is opening file: /etc/localtime  
+[33085.350374] User 1000 is closing file descriptor: 17  
+[33086.350823] User 1000 is opening file: /etc/localtime  
+[33086.350864] User 1000 is closing file descriptor: 17  
+[33086.352034] User 1000 is opening file: /etc/localtime  
+[33086.352046] User 1000 is closing file descriptor: 17  
+[33087.351371] User 1000 is opening file: /etc/localtime  
+[33087.351404] User 1000 is closing file descriptor: 17  
+[33087.352596] User 1000 is opening file: /etc/localtime  
+[33087.352627] User 1000 is closing file descriptor: 17  
+[33088.351985] User 1000 is opening file: /etc/localtime  
+[33088.352006] User 1000 is closing file descriptor: 17  
+[33088.352542] User 1000 is opening file: /etc/localtime  
+[33088.352554] User 1000 is closing file descriptor: 17  
+[33089.353091] User 1000 is opening file: /etc/localtime  
+[33089.353113] User 1000 is closing file descriptor: 17  
+[33089.353733] User 1000 is opening file: /etc/localtime  
+[33089.353746] User 1000 is closing file descriptor: 17  
+[33090.354261] User 1000 is opening file: /etc/localtime  
+[33090.354283] User 1000 is closing file descriptor: 17  
+[33090.354853] User 1000 is opening file: /etc/localtime  
+[33090.354918] User 1000 is closing file descriptor: 17  
+[33090.797728] User 1000 is closing file descriptor: 13  
+[33091.355572] User 1000 is opening file: /etc/localtime  
+[33091.355592] User 1000 is closing file descriptor: 17  
+[33091.356087] User 1000 is opening file: /etc/localtime  
+[33091.356097] User 1000 is closing file descriptor: 17  
+[33092.356577] User 1000 is opening file: /etc/localtime  
+[33092.356597] User 1000 is closing file descriptor: 17  
+[33092.357164] User 1000 is opening file: /etc/localtime  
+[33092.357174] User 1000 is closing file descriptor: 17  
+[33093.357885] User 1000 is opening file: /etc/localtime  
+[33093.357907] User 1000 is closing file descriptor: 17  
+[33093.358447] User 1000 is opening file: /etc/localtime  
+[33093.358458] User 1000 is closing file descriptor: 17  
+[33094.359270] User 1000 is opening file: /etc/localtime  
+[33094.359292] User 1000 is closing file descriptor: 17  
+[33094.359792] User 1000 is opening file: /etc/localtime  
+[33094.359802] User 1000 is closing file descriptor: 17  
+[33095.360951] User 1000 is opening file: /etc/localtime  
+[33095.361029] User 1000 is closing file descriptor: 17  
+[33095.362214] User 1000 is opening file: /etc/localtime  
+[33095.362238] User 1000 is closing file descriptor: 17  
+[33095.678783] User 1000 is closing file descriptor: 3  
+[33095.678786] User 1000 is closing file descriptor: 4  
+[33095.839148] User 1000 is closing file descriptor: 4  
+[33095.839158] User 1000 is closing file descriptor: 3  
+[33095.839488] User 1000 is opening file: /etc/ld.so.cache  
+[33095.839496] User 1000 is closing file descriptor: 3  
+[33095.839510] User 1000 is opening file: /lib/i386-linux-gnu/libc.so.6  
+[33095.839538] User 1000 is closing file descriptor: 3  
+[33095.839773] User 1000 is opening file: /usr/lib/locale/locale-archive  
+[33095.839795] User 1000 is closing file descriptor: 3  
+[33095.839837] User 1000 is opening file: /usr/share/locale/locale.alias  
+[33095.840080] User 1000 is closing file descriptor: 3  
+[33095.840115] User 1000 is opening file: /usr/share/locale/en_US/LC_MESSAGES/gcc-5.mo  
+[33095.840120] User 1000 is opening file: /usr/share/locale/en/LC_MESSAGES/gcc-5.mo  
+[33095.840124] User 1000 is opening file: /usr/share/locale-langpack/en_US/LC_MESSAGES/gcc-5.mo  
+[33095.840128] User 1000 is opening file: /usr/share/locale-langpack/en/LC_MESSAGES/gcc-5.mo  
+[33095.840529] User 1000 is opening file: /tmp/ccvJf1ur.s  
+[33095.840557] User 1000 is closing file descriptor: 3  
+[33095.909247] User 1000 is opening file: /etc/ld.so.cache  
+[33095.909257] User 1000 is closing file descriptor: 3  
+[33095.909267] User 1000 is opening file: /usr/lib/i386-linux-gnu/libisl.so.15  
+[33095.909374] User 1000 is closing file descriptor: 3  
+[33095.909407] User 1000 is opening file: /usr/lib/i386-linux-gnu/libmpc.so.3  
+[33095.909427] User 1000 is closing file descriptor: 3  
+[33095.909436] User 1000 is opening file: /usr/lib/i386-linux-gnu/libmpfr.so.4  
+[33095.909454] User 1000 is closing file descriptor: 3  
+[33095.909466] User 1000 is opening file: /usr/lib/i386-linux-gnu/libgmp.so.10  
+[33095.909486] User 1000 is closing file descriptor: 3  
+[33095.909495] User 1000 is opening file: /lib/i386-linux-gnu/libdl.so.2  
+[33095.909515] User 1000 is closing file descriptor: 3  
+[33095.909523] User 1000 is opening file: /lib/i386-linux-gnu/libz.so.1  
+[33095.909546] User 1000 is closing file descriptor: 3  
+[33095.909555] User 1000 is opening file: /lib/i386-linux-gnu/libm.so.6  
+[33095.909575] User 1000 is closing file descriptor: 3  
+[33095.909585] User 1000 is opening file: /lib/i386-linux-gnu/libc.so.6  
+[33095.909610] User 1000 is closing file descriptor: 3  
+[33095.910148] User 1000 is opening file: /usr/lib/locale/locale-archive  
+[33095.910166] User 1000 is closing file descriptor: 3  
+[33095.910217] User 1000 is opening file: /usr/share/locale/locale.alias  
+[33095.910490] User 1000 is closing file descriptor: 3  
+[33095.910507] User 1000 is opening file: /usr/share/locale/en_US/LC_MESSAGES/gcc-5.mo  
+[33095.910512] User 1000 is opening file: /usr/share/locale/en/LC_MESSAGES/gcc-5.mo  
+[33095.910516] User 1000 is opening file: /usr/share/locale-langpack/en_US/LC_MESSAGES/gcc-5.mo  
+[33095.910520] User 1000 is opening file: /usr/share/locale-langpack/en/LC_MESSAGES/gcc-5.mo  
+[33095.987987] User 1000 is opening file: /dev/urandom  
+[33095.988057] User 1000 is closing file descriptor: 3  
+[33095.988283] User 1000 is opening file: test.c  
+[33095.988344] User 1000 is closing file descriptor: 3  
+[33096.362445] User 1000 is opening file: /etc/localtime  
+[33096.362540] User 1000 is closing file descriptor: 17  
+[33096.375743] User 1000 is opening file: /etc/localtime  
+[33096.375799] User 1000 is closing file descriptor: 17  
+[33096.398750] User 1000 is opening file: /tmp/ccvJf1ur.s  
+[33096.399819] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/stdc-predef.h  
+[33096.399841] User 1000 is opening file: /usr/local/include/stdc-predef.h  
+[33096.399881] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include-fixed/stdc-predef.h  
+[33096.399899] User 1000 is opening file: /usr/include/i386-linux-gnu/stdc-predef.h  
+[33096.399916] User 1000 is opening file: /usr/include/stdc-predef.h  
+[33096.400042] User 1000 is closing file descriptor: 4  
+[33096.400306] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/sys/syscall.h  
+[33096.400316] User 1000 is opening file: /usr/local/include/sys/syscall.h  
+[33096.400327] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include-fixed/sys/syscall.h  
+[33096.400347] User 1000 is opening file: /usr/include/i386-linux-gnu/sys/syscall.h  
+[33096.400421] User 1000 is closing file descriptor: 4  
+[33096.400448] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/asm/unistd.h  
+[33096.400465] User 1000 is opening file: /usr/local/include/asm/unistd.h  
+[33096.400485] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include-fixed/asm/unistd.h  
+[33096.400504] User 1000 is opening file: /usr/include/i386-linux-gnu/asm/unistd.h  
+[33096.400524] User 1000 is closing file descriptor: 4  
+[33096.400593] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/asm/unistd_32.h  
+[33096.400600] User 1000 is opening file: /usr/local/include/asm/unistd_32.h  
+[33096.400630] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include-fixed/asm/unistd_32.h  
+[33096.400666] User 1000 is opening file: /usr/include/i386-linux-gnu/asm/unistd_32.h  
+[33096.401089] User 1000 is closing file descriptor: 4  
+[33096.401658] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/bits/syscall.h  
+[33096.401692] User 1000 is opening file: /usr/local/include/bits/syscall.h  
+[33096.401730] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include-fixed/bits/syscall.h  
+[33096.401758] User 1000 is opening file: /usr/include/i386-linux-gnu/bits/syscall.h  
+[33096.625907] User 1000 is closing file descriptor: 4  
+[33096.626439] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/stdio.h  
+[33096.626449] User 1000 is opening file: /usr/local/include/stdio.h  
+[33096.626459] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include-fixed/stdio.h  
+[33096.626465] User 1000 is opening file: /usr/include/i386-linux-gnu/stdio.h  
+[33096.626471] User 1000 is opening file: /usr/include/stdio.h  
+[33096.670634] User 1000 is closing file descriptor: 4  
+[33096.670686] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/features.h  
+[33096.670696] User 1000 is opening file: /usr/local/include/features.h  
+[33096.670706] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include-fixed/features.h  
+[33096.670713] User 1000 is opening file: /usr/include/i386-linux-gnu/features.h  
+[33096.670735] User 1000 is opening file: /usr/include/features.h  
+[33096.670973] User 1000 is closing file descriptor: 4  
+[33096.671130] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/sys/cdefs.h  
+[33096.671139] User 1000 is opening file: /usr/local/include/sys/cdefs.h  
+[33096.671148] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include-fixed/sys/cdefs.h  
+[33096.671156] User 1000 is opening file: /usr/include/i386-linux-gnu/sys/cdefs.h  
+[33096.671430] User 1000 is closing file descriptor: 4  
+[33096.671822] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/bits/wordsize.h  
+[33096.671830] User 1000 is opening file: /usr/local/include/bits/wordsize.h  
+[33096.671839] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include-fixed/bits/wordsize.h  
+[33096.671847] User 1000 is opening file: /usr/include/i386-linux-gnu/bits/wordsize.h  
+[33096.671859] User 1000 is closing file descriptor: 4  
+[33096.671911] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/gnu/stubs.h  
+[33096.671917] User 1000 is opening file: /usr/local/include/gnu/stubs.h  
+[33096.671926] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include-fixed/gnu/stubs.h  
+[33096.671934] User 1000 is opening file: /usr/include/i386-linux-gnu/gnu/stubs.h  
+[33096.671945] User 1000 is closing file descriptor: 4  
+[33096.671957] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/gnu/stubs-32.h  
+[33096.671963] User 1000 is opening file: /usr/local/include/gnu/stubs-32.h  
+[33096.671972] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include-fixed/gnu/stubs-32.h  
+[33096.671980] User 1000 is opening file: /usr/include/i386-linux-gnu/gnu/stubs-32.h  
+[33096.671994] User 1000 is closing file descriptor: 4  
+[33096.672022] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h  
+[33096.672263] User 1000 is closing file descriptor: 4  
+[33096.672428] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/bits/types.h  
+[33096.672435] User 1000 is opening file: /usr/local/include/bits/types.h  
+[33096.672444] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include-fixed/bits/types.h  
+[33096.672451] User 1000 is opening file: /usr/include/i386-linux-gnu/bits/types.h  
+[33096.672677] User 1000 is closing file descriptor: 4  
+[33096.672686] User 1000 is opening file: /usr/include/i386-linux-gnu/bits/wordsize.h  
+[33096.672697] User 1000 is closing file descriptor: 4  
+[33096.672773] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/bits/typesizes.h  
+[33096.672780] User 1000 is opening file: /usr/local/include/bits/typesizes.h  
+[33096.672788] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include-fixed/bits/typesizes.h  
+[33096.672796] User 1000 is opening file: /usr/include/i386-linux-gnu/bits/typesizes.h  
+[33096.672858] User 1000 is closing file descriptor: 4  
+[33096.673089] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/libio.h  
+[33096.673097] User 1000 is opening file: /usr/local/include/libio.h  
+[33096.673106] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include-fixed/libio.h  
+[33096.673112] User 1000 is opening file: /usr/include/i386-linux-gnu/libio.h  
+[33096.673117] User 1000 is opening file: /usr/include/libio.h  
+[33096.673418] User 1000 is closing file descriptor: 4  
+[33096.673433] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/_G_config.h  
+[33096.673440] User 1000 is opening file: /usr/local/include/_G_config.h  
+[33096.673449] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include-fixed/_G_config.h  
+[33096.673455] User 1000 is opening file: /usr/include/i386-linux-gnu/_G_config.h  
+[33096.673460] User 1000 is opening file: /usr/include/_G_config.h  
+[33096.673560] User 1000 is closing file descriptor: 4  
+[33096.673588] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h  
+[33096.673848] User 1000 is closing file descriptor: 4  
+[33096.673984] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/wchar.h  
+[33096.673990] User 1000 is opening file: /usr/local/include/wchar.h  
+[33096.673999] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include-fixed/wchar.h  
+[33096.674005] User 1000 is opening file: /usr/include/i386-linux-gnu/wchar.h  
+[33096.674010] User 1000 is opening file: /usr/include/wchar.h  
+[33096.853986] User 1000 is closing file descriptor: 4  
+[33096.855016] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/stdarg.h  
+[33096.930892] User 1000 is closing file descriptor: 4  
+[33096.931702] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/bits/stdio_lim.h  
+[33096.931713] User 1000 is opening file: /usr/local/include/bits/stdio_lim.h  
+[33096.931723] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include-fixed/bits/stdio_lim.h  
+[33096.931755] User 1000 is opening file: /usr/include/i386-linux-gnu/bits/stdio_lim.h  
+[33096.931809] User 1000 is closing file descriptor: 4  
+[33096.932897] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/bits/sys_errlist.h  
+[33096.932906] User 1000 is opening file: /usr/local/include/bits/sys_errlist.h  
+[33096.932916] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include-fixed/bits/sys_errlist.h  
+[33096.932924] User 1000 is opening file: /usr/include/i386-linux-gnu/bits/sys_errlist.h  
+[33096.932952] User 1000 is closing file descriptor: 4  
+[33096.933049] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/unistd.h  
+[33096.933057] User 1000 is opening file: /usr/local/include/unistd.h  
+[33096.933066] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include-fixed/unistd.h  
+[33096.933073] User 1000 is opening file: /usr/include/i386-linux-gnu/unistd.h  
+[33096.933078] User 1000 is opening file: /usr/include/unistd.h  
+[33096.933944] User 1000 is closing file descriptor: 4  
+[33096.933994] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/bits/posix_opt.h  
+[33096.934001] User 1000 is opening file: /usr/local/include/bits/posix_opt.h  
+[33096.934010] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include-fixed/bits/posix_opt.h  
+[33096.934018] User 1000 is opening file: /usr/include/i386-linux-gnu/bits/posix_opt.h  
+[33096.934122] User 1000 is closing file descriptor: 4  
+[33096.934239] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/bits/environments.h  
+[33096.934246] User 1000 is opening file: /usr/local/include/bits/environments.h  
+[33096.934255] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include-fixed/bits/environments.h  
+[33096.934263] User 1000 is opening file: /usr/include/i386-linux-gnu/bits/environments.h  
+[33096.934334] User 1000 is closing file descriptor: 4  
+[33096.934340] User 1000 is opening file: /usr/include/i386-linux-gnu/bits/wordsize.h  
+[33096.934351] User 1000 is closing file descriptor: 4  
+[33096.934385] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h  
+[33096.934625] User 1000 is closing file descriptor: 4  
+[33097.135890] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/bits/confname.h  
+[33097.135902] User 1000 is opening file: /usr/local/include/bits/confname.h  
+[33097.135912] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include-fixed/bits/confname.h  
+[33097.135922] User 1000 is opening file: /usr/include/i386-linux-gnu/bits/confname.h  
+[33097.136469] User 1000 is closing file descriptor: 4  
+[33097.137525] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include/getopt.h  
+[33097.137533] User 1000 is opening file: /usr/local/include/getopt.h  
+[33097.137543] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/include-fixed/getopt.h  
+[33097.137550] User 1000 is opening file: /usr/include/i386-linux-gnu/getopt.h  
+[33097.137555] User 1000 is opening file: /usr/include/getopt.h  
+[33097.137719] User 1000 is closing file descriptor: 4  
+[33097.363227] User 1000 is opening file: /etc/localtime  
+[33097.363247] User 1000 is closing file descriptor: 17  
+[33097.377101] User 1000 is opening file: /etc/localtime  
+[33097.377120] User 1000 is closing file descriptor: 17  
+[33097.646461] User 1000 is closing file descriptor: 3  
+[33097.778073] User 1000 is opening file: /tmp/ccIjMut4.o  
+[33097.778104] User 1000 is closing file descriptor: 3  
+[33097.859222] User 1000 is opening file: /etc/ld.so.cache  
+[33097.859231] User 1000 is closing file descriptor: 3  
+[33097.859240] User 1000 is opening file: /usr/lib/i386-linux-gnu/libopcodes-2.26.1-system.so  
+[33097.859262] User 1000 is closing file descriptor: 3  
+[33097.859273] User 1000 is opening file: /usr/lib/i386-linux-gnu/libbfd-2.26.1-system.so  
+[33097.859295] User 1000 is closing file descriptor: 3  
+[33097.859304] User 1000 is opening file: /lib/i386-linux-gnu/libz.so.1  
+[33097.859322] User 1000 is closing file descriptor: 3  
+[33097.859330] User 1000 is opening file: /lib/i386-linux-gnu/libc.so.6  
+[33097.859352] User 1000 is closing file descriptor: 3  
+[33097.859366] User 1000 is opening file: /lib/i386-linux-gnu/libdl.so.2  
+[33097.859383] User 1000 is closing file descriptor: 3  
+[33097.887221] User 1000 is opening file: /usr/lib/locale/locale-archive  
+[33097.887244] User 1000 is closing file descriptor: 3  
+[33097.887996] User 1000 is opening file: /tmp/ccIjMut4.o  
+[33097.888772] User 1000 is opening file: /tmp/ccvJf1ur.s  
+[33097.888996] User 1000 is closing file descriptor: 4  
+[33097.889093] User 1000 is opening file: /usr/share/locale/locale.alias  
+[33097.889231] User 1000 is closing file descriptor: 4  
+[33097.889245] User 1000 is opening file: /usr/share/locale/en_US/LC_MESSAGES/gas.mo  
+[33097.889249] User 1000 is opening file: /usr/share/locale/en/LC_MESSAGES/gas.mo  
+[33097.889252] User 1000 is opening file: /usr/share/locale-langpack/en_US/LC_MESSAGES/gas.mo  
+[33097.889255] User 1000 is opening file: /usr/share/locale-langpack/en/LC_MESSAGES/gas.mo  
+[33097.889612] User 1000 is closing file descriptor: 3  
+[33098.050895] User 1000 is opening file: /tmp/cclBwPdI.res  
+[33098.050920] User 1000 is closing file descriptor: 3  
+[33098.107713] User 1000 is opening file: /etc/ld.so.cache  
+[33098.107721] User 1000 is closing file descriptor: 3  
+[33098.107732] User 1000 is opening file: /lib/i386-linux-gnu/libc.so.6  
+[33098.107756] User 1000 is closing file descriptor: 3  
+[33098.107936] User 1000 is opening file: /usr/lib/locale/locale-archive  
+[33098.107951] User 1000 is closing file descriptor: 3  
+[33098.107988] User 1000 is opening file: /usr/share/locale/locale.alias  
+[33098.108118] User 1000 is closing file descriptor: 3  
+[33098.108131] User 1000 is opening file: /usr/share/locale/en_US/LC_MESSAGES/gcc-5.mo  
+[33098.108134] User 1000 is opening file: /usr/share/locale/en/LC_MESSAGES/gcc-5.mo  
+[33098.108137] User 1000 is opening file: /usr/share/locale-langpack/en_US/LC_MESSAGES/gcc-5.mo  
+[33098.108141] User 1000 is opening file: /usr/share/locale-langpack/en/LC_MESSAGES/gcc-5.mo  
+[33098.108293] User 1000 is opening file: /tmp/ccr0t0lR.c  
+[33098.108312] User 1000 is closing file descriptor: 3  
+[33098.108315] User 1000 is opening file: /tmp/ccTmHpgv.o  
+[33098.108325] User 1000 is closing file descriptor: 3  
+[33098.108327] User 1000 is opening file: /tmp/ccH72Oa9.ld  
+[33098.108335] User 1000 is closing file descriptor: 3  
+[33098.108337] User 1000 is opening file: /tmp/ccrOze5M.le  
+[33098.108344] User 1000 is closing file descriptor: 3  
+[33098.108351] User 1000 is opening file: /tmp/ccH72Oa9.ld  
+[33098.108361] User 1000 is opening file: /tmp/ccrOze5M.le  
+[33098.180652] User 1000 is closing file descriptor: 3  
+[33098.180656] User 1000 is closing file descriptor: 4  
+[33098.181113] User 1000 is opening file: /etc/ld.so.cache  
+[33098.181120] User 1000 is closing file descriptor: 3  
+[33098.181132] User 1000 is opening file: /usr/lib/i386-linux-gnu/libbfd-2.26.1-system.so  
+[33098.181176] User 1000 is closing file descriptor: 3  
+[33098.181188] User 1000 is opening file: /lib/i386-linux-gnu/libdl.so.2  
+[33098.181225] User 1000 is closing file descriptor: 3  
+[33098.181231] User 1000 is opening file: /lib/i386-linux-gnu/libc.so.6  
+[33098.181253] User 1000 is closing file descriptor: 3  
+[33098.181266] User 1000 is opening file: /lib/i386-linux-gnu/libz.so.1  
+[33098.181284] User 1000 is closing file descriptor: 3  
+[33098.181696] User 1000 is opening file: /usr/lib/locale/locale-archive  
+[33098.181714] User 1000 is closing file descriptor: 3  
+[33098.181793] User 1000 is opening file: /usr/lib/i386-linux-gnu/gconv/gconv-modules.cache  
+[33098.181800] User 1000 is closing file descriptor: 3  
+[33098.181883] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/liblto_plugin.so  
+[33098.181904] User 1000 is closing file descriptor: 3  
+[33098.181990] User 1000 is opening file: /usr/share/locale/locale.alias  
+[33098.182125] User 1000 is closing file descriptor: 3  
+[33098.182138] User 1000 is opening file: /usr/share/locale/en_US/LC_MESSAGES/ld.mo  
+[33098.182142] User 1000 is opening file: /usr/share/locale/en/LC_MESSAGES/ld.mo  
+[33098.182145] User 1000 is opening file: /usr/share/locale-langpack/en_US/LC_MESSAGES/ld.mo  
+[33098.182148] User 1000 is opening file: /usr/share/locale-langpack/en/LC_MESSAGES/ld.mo  
+[33098.182756] User 1000 is closing file descriptor: 3  
+[33098.182758] User 1000 is closing file descriptor: 4  
+[33098.290914] User 1000 is opening file: test  
+[33098.291134] User 1000 is opening file: /home/zonglinpeng/CS3013/part1/.hidden  
+[33098.291260] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crt1.o  
+[33098.291299] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crt1.o  
+[33098.291328] User 1000 is closing file descriptor: 5  
+[33098.291363] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o  
+[33098.291390] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o  
+[33098.291409] User 1000 is closing file descriptor: 6  
+[33098.291430] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/crtbegin.o  
+[33098.291455] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/crtbegin.o  
+[33098.291475] User 1000 is closing file descriptor: 7  
+[33098.291493] User 1000 is opening file: /tmp/ccIjMut4.o  
+[33098.291517] User 1000 is opening file: /tmp/ccIjMut4.o  
+[33098.291536] User 1000 is closing file descriptor: 8  
+[33098.291555] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/libgcc.so  
+[33098.291569] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/libgcc.a  
+[33098.291748] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/libgcc_s.so  
+[33098.291923] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/libgcc_s.so  
+[33098.291949] User 1000 is closing file descriptor: 10  
+[33098.292375] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/libc.so  
+[33098.292382] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/libc.a  
+[33098.292389] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/libc.so  
+[33098.292450] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/libc.so  
+[33098.292467] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/libc.so  
+[33098.364309] User 1000 is opening file: /etc/localtime  
+[33098.364330] User 1000 is closing file descriptor: 17  
+[33098.371228] User 1000 is opening file: /etc/localtime  
+[33098.371252] User 1000 is closing file descriptor: 17  
+[33098.388712] User 1000 is opening file: /usr/share/applications/gedit.desktop  
+[33098.388788] User 1000 is closing file descriptor: 22  
+[33098.389323] User 1000 is opening file: /usr/share/applications/gedit.desktop  
+[33098.389442] User 1000 is closing file descriptor: 22  
+[33098.389565] User 1000 is opening file: /usr/share/applications/atom.desktop  
+[33098.389619] User 1000 is closing file descriptor: 22  
+[33098.389709] User 1000 is opening file: /usr/share/applications/org.gnome.gedit.desktop  
+[33098.389777] User 1000 is closing file descriptor: 22  
+[33098.389875] User 1000 is opening file: /usr/share/applications/vim.desktop  
+[33098.390102] User 1000 is closing file descriptor: 22  
+[33098.390133] User 1000 is opening file: /usr/share/applications/libreoffice-writer.desktop  
+[33098.392952] User 1000 is closing file descriptor: 22  
+[33098.400428] User 1000 is opening file: /usr/share/applications/thunderbird.desktop  
+[33098.400938] User 1000 is closing file descriptor: 22  
+[33098.401200] User 1000 is opening file: /run/user/1000/dconf/user  
+[33098.401214] User 1000 is closing file descriptor: 22  
+[33098.401218] User 1000 is opening file: /home/zonglinpeng/.config/dconf/user  
+[33098.401224] User 1000 is closing file descriptor: 22  
+[33098.423726] User 1000 is closing file descriptor: 12  
+[33098.423858] User 1000 is closing file descriptor: 10  
+[33098.423864] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/libc.so  
+[33098.423959] User 1000 is closing file descriptor: 10  
+[33098.423968] User 1000 is opening file: /lib/i386-linux-gnu/libc.so.6  
+[33098.424322] User 1000 is opening file: /lib/i386-linux-gnu/libc.so.6  
+[33098.424385] User 1000 is closing file descriptor: 12  
+[33099.029191] User 1000 is opening file: /usr/lib/i386-linux-gnu/libc_nonshared.a  
+[33099.029397] User 1000 is opening file: /usr/lib/i386-linux-gnu/libc_nonshared.a  
+[33099.029452] User 1000 is closing file descriptor: 13  
+[33099.029580] User 1000 is opening file: /lib/i386-linux-gnu/ld-linux.so.2  
+[33099.029785] User 1000 is opening file: /lib/i386-linux-gnu/ld-linux.so.2  
+[33099.029862] User 1000 is closing file descriptor: 14  
+[33099.291071] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/libgcc.so  
+[33099.291086] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/libgcc.a  
+[33099.291391] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/libgcc_s.so  
+[33099.291456] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/libgcc_s.so  
+[33099.291478] User 1000 is closing file descriptor: 16  
+[33099.292927] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/crtend.o  
+[33099.292949] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/crtend.o  
+[33099.292965] User 1000 is closing file descriptor: 17  
+[33099.292978] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o  
+[33099.292994] User 1000 is opening file: /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o  
+[33099.293010] User 1000 is closing file descriptor: 18  
+[33099.293040] User 1000 is opening file: /lib/i386-linux-gnu/ld-linux.so.2  
+[33099.365266] User 1000 is opening file: /etc/localtime  
+[33099.365288] User 1000 is closing file descriptor: 17  
+[33099.368616] User 1000 is opening file: /etc/localtime  
+[33099.368630] User 1000 is closing file descriptor: 17  
+[33099.756128] User 1000 is closing file descriptor: 3  
+[33099.818874] User 1000 is closing file descriptor: 16  
+[33099.818880] User 1000 is closing file descriptor: 7  
+[33099.818883] User 1000 is closing file descriptor: 12  
+[33099.818885] User 1000 is closing file descriptor: 6  
+[33099.818888] User 1000 is closing file descriptor: 17  
+[33099.818890] User 1000 is closing file descriptor: 5  
+[33099.818893] User 1000 is closing file descriptor: 4  
+[33099.818895] User 1000 is closing file descriptor: 18  
+[33099.818897] User 1000 is closing file descriptor: 10  
+[33099.818900] User 1000 is closing file descriptor: 14  
+[33099.818903] User 1000 is closing file descriptor: 8  
+[33099.818905] User 1000 is closing file descriptor: 15  
+[33099.818908] User 1000 is closing file descriptor: 13  
+[33099.818910] User 1000 is closing file descriptor: 9  
+[33099.819156] User 1000 is opening file: /tmp/ccH72Oa9.ld  
+[33099.819172] User 1000 is closing file descriptor: 3  
+[33099.819248] User 1000 is opening file: /tmp/ccrOze5M.le  
+[33099.819256] User 1000 is closing file descriptor: 3  
+[33099.819317] User 1000 is opening file: /tmp/ccH72Oa9.ld  
+[33099.819321] User 1000 is opening file: /tmp/ccrOze5M.le  
+[33099.855570] User 1000 is opening file: /home/zonglinpeng/CS3013/part1/test  
+[33099.855584] User 1000 is closing file descriptor: 22  
+[33099.956926] User 1000 is opening file: /usr/share/applications/gedit.desktop  
+[33099.957009] User 1000 is closing file descriptor: 22  
+[33099.957565] User 1000 is opening file: /usr/share/applications/gedit.desktop  
+[33099.957628] User 1000 is closing file descriptor: 22  
+[33099.957746] User 1000 is opening file: /usr/share/applications/atom.desktop  
+[33099.957894] User 1000 is closing file descriptor: 22  
+[33099.958004] User 1000 is opening file: /usr/share/applications/org.gnome.gedit.desktop  
+[33099.958071] User 1000 is closing file descriptor: 22  
+[33099.958169] User 1000 is opening file: /usr/share/applications/vim.desktop  
+[33099.958387] User 1000 is closing file descriptor: 22  
+[33099.958432] User 1000 is opening file: /usr/share/applications/libreoffice-writer.desktop  
+[33099.959702] User 1000 is closing file descriptor: 22  
+[33099.962074] User 1000 is opening file: /usr/share/applications/thunderbird.desktop  
+[33099.962912] User 1000 is closing file descriptor: 22  
+[33100.183895] User 1000 is opening file: /etc/localtime  
+[33100.183916] User 1000 is closing file descriptor: 11  
+[33100.183952] User 1000 is opening file: /etc/localtime  
+[33100.183959] User 1000 is closing file descriptor: 11  
+[33100.366296] User 1000 is opening file: /etc/localtime  
+[33100.366315] User 1000 is closing file descriptor: 17  
+[33100.369769] User 1000 is opening file: /etc/localtime  
+[33100.369783] User 1000 is closing file descriptor: 17  
+[33101.367577] User 1000 is opening file: /etc/localtime  
+[33101.367624] User 1000 is closing file descriptor: 17  
+[33101.368373] User 1000 is opening file: /etc/localtime  
+[33101.368390] User 1000 is closing file descriptor: 17  
+[33102.198675] User 1000 is opening file: /etc/fstab  
+[33102.198758] User 1000 is closing file descriptor: 26  
+[33102.198791] User 1000 is opening file: /proc/mounts  
+[33102.199134] User 1000 is closing file descriptor: 26  
+[33102.368840] User 1000 is opening file: /etc/localtime  
+[33102.368861] User 1000 is closing file descriptor: 17  
+[33102.369718] User 1000 is opening file: /etc/localtime  
+[33102.369729] User 1000 is closing file descriptor: 17  
+[33102.782806] User 1000 is closing file descriptor: 3  
+[33102.782811] User 1000 is closing file descriptor: 4  
+[33102.878660] User 1000 is closing file descriptor: 4  
+[33102.878668] User 1000 is closing file descriptor: 3  
+[33102.883220] User 1000 is opening file: /etc/ld.so.cache  
+[33102.883230] User 1000 is closing file descriptor: 3  
+[33102.883243] User 1000 is opening file: /lib/i386-linux-gnu/libc.so.6  
+[33102.883273] User 1000 is closing file descriptor: 3  
+[33102.883408] "'Hello world?!' More like 'Goodbye, world!' EXTERMINATE!" -- Dalek
+[33102.890738] User 1000 is opening file: IAmSafe.txt  
+[33102.890755] User 1000 read from file descriptor 3 
+[33102.890756] but that read contained malicious code! 
+[33102.890759] User 1000 is closing file descriptor: 3  
+[33103.369737] User 1000 is opening file: /etc/localtime  
+[33103.369757] User 1000 is closing file descriptor: 17  
+[33103.371012] User 1000 is opening file: /etc/localtime  
+[33103.371025] User 1000 is closing file descriptor: 17  
+[33104.370962] User 1000 is opening file: /etc/localtime  
+[33104.371021] User 1000 is closing file descriptor: 17  
+[33104.372390] User 1000 is opening file: /etc/localtime  
+[33104.372412] User 1000 is closing file descriptor: 17  
+[33104.407567] User 1000 is opening file: /proc/self/status  
+[33104.407623] User 1000 is closing file descriptor: 166  
+[33104.407637] User 1000 is opening file: /proc/self/status  
+[33104.407674] User 1000 is closing file descriptor: 166  
+[33104.407823] User 1000 is opening file: /proc/self/status  
+[33104.407863] User 1000 is closing file descriptor: 166  
+[33104.407868] User 1000 is opening file: /proc/self/status  
+[33104.407904] User 1000 is closing file descriptor: 166  
+[33104.439001] User 1000 is opening file: /proc/self/status  
+[33104.439054] User 1000 is closing file descriptor: 166  
+[33104.439061] User 1000 is opening file: /proc/self/status  
+[33104.439097] User 1000 is closing file descriptor: 166  
+[33104.439103] User 1000 is opening file: /proc/self/status  
+[33104.439138] User 1000 is closing file descriptor: 166  
+[33104.439144] User 1000 is opening file: /proc/self/status  
+[33104.439201] User 1000 is closing file descriptor: 166  
+[33104.441796] User 1000 is opening file: /proc/self/status  
+[33104.441846] User 1000 is closing file descriptor: 166  
+[33104.441854] User 1000 is opening file: /proc/self/status  
+[33104.441890] User 1000 is closing file descriptor: 166  
+[33104.490113] User 1000 is opening file: /proc/self/status  
+[33104.490169] User 1000 is closing file descriptor: 166  
+[33104.490179] User 1000 is opening file: /proc/self/status  
+[33104.490216] User 1000 is closing file descriptor: 166  
+[33104.512530] User 1000 is opening file: /proc/self/status  
+[33104.512585] User 1000 is closing file descriptor: 166  
+[33104.512593] User 1000 is opening file: /proc/self/status  
+[33104.512631] User 1000 is closing file descriptor: 166  
+[33104.512637] User 1000 is opening file: /proc/self/status  
+[33104.512673] User 1000 is closing file descriptor: 166  
+[33104.512678] User 1000 is opening file: /proc/self/status  
+[33104.512715] User 1000 is closing file descriptor: 166  
+[33104.519209] User 1000 is opening file: /proc/self/status  
+[33104.519263] User 1000 is closing file descriptor: 166  
+[33104.519273] User 1000 is opening file: /proc/self/status  
+[33104.519310] User 1000 is closing file descriptor: 166  
+[33104.539196] User 1000 is opening file: /proc/self/status  
+[33104.539252] User 1000 is closing file descriptor: 166  
+[33104.539263] User 1000 is opening file: /proc/self/status  
+[33104.539301] User 1000 is closing file descriptor: 166  
+[33104.542903] User 1000 is opening file: /proc/self/status  
+[33104.542953] User 1000 is closing file descriptor: 166  
+[33104.542961] User 1000 is opening file: /proc/self/status  
+[33104.542999] User 1000 is closing file descriptor: 166  
+[33104.549841] User 1000 is opening file: /proc/self/status  
+[33104.549978] User 1000 is closing file descriptor: 166  
+[33104.550000] User 1000 is opening file: /proc/self/status  
+[33104.550060] User 1000 is closing file descriptor: 166  
+[33104.557637] User 1000 is opening file: /proc/self/status  
+[33104.557763] User 1000 is closing file descriptor: 166  
+[33104.557795] User 1000 is opening file: /proc/self/status  
+[33104.557872] User 1000 is closing file descriptor: 166  
+[33104.567487] User 1000 is opening file: /proc/self/status  
+[33104.567623] User 1000 is closing file descriptor: 166  
+[33104.567644] User 1000 is opening file: /proc/self/status  
+[33104.567747] User 1000 is closing file descriptor: 166  
+[33104.577056] User 1000 is opening file: /proc/self/status  
+[33104.577211] User 1000 is closing file descriptor: 166  
+[33104.577234] User 1000 is opening file: /proc/self/status  
+[33104.577373] User 1000 is closing file descriptor: 166  
+[33104.586702] User 1000 is opening file: /proc/self/status  
+[33104.586819] User 1000 is closing file descriptor: 166  
+[33104.586847] User 1000 is opening file: /proc/self/status  
+[33104.586915] User 1000 is closing file descriptor: 166  
+[33104.789087] User 1000 is opening file: /proc/self/status  
+[33104.789230] User 1000 is closing file descriptor: 166  
+[33104.789287] User 1000 is opening file: /proc/self/status  
+[33104.789363] User 1000 is closing file descriptor: 166  
+[33104.798502] User 1000 is opening file: /proc/self/status  
+[33104.798574] User 1000 is closing file descriptor: 166  
+[33104.798585] User 1000 is opening file: /proc/self/status  
+[33104.798624] User 1000 is closing file descriptor: 166  
+[33104.808204] User 1000 is opening file: /proc/self/status  
+[33104.808255] User 1000 is closing file descriptor: 166  
+[33104.808263] User 1000 is opening file: /proc/self/status  
+[33104.808299] User 1000 is closing file descriptor: 166  
+[33104.817846] User 1000 is opening file: /proc/self/status  
+[33104.817895] User 1000 is closing file descriptor: 166  
+[33104.817903] User 1000 is opening file: /proc/self/status  
+[33104.817939] User 1000 is closing file descriptor: 166  
+[33104.827544] User 1000 is opening file: /proc/self/status  
+[33104.827594] User 1000 is closing file descriptor: 166  
+[33104.827603] User 1000 is opening file: /proc/self/status  
+[33104.827639] User 1000 is closing file descriptor: 166  
+[33104.837164] User 1000 is opening file: /proc/self/status  
+[33104.837213] User 1000 is closing file descriptor: 166  
+[33104.837221] User 1000 is opening file: /proc/self/status  
+[33104.837257] User 1000 is closing file descriptor: 166  
+[33104.846853] User 1000 is opening file: /proc/self/status  
+[33104.846902] User 1000 is closing file descriptor: 166  
+[33104.846910] User 1000 is opening file: /proc/self/status  
+[33104.846947] User 1000 is closing file descriptor: 166  
+[33104.856303] User 1000 is opening file: /proc/self/status  
+[33104.856432] User 1000 is closing file descriptor: 166  
+[33104.856442] User 1000 is opening file: /proc/self/status  
+[33104.856479] User 1000 is closing file descriptor: 166  
+[33104.862920] User 1000 is opening file: /dev/shm/.org.chromium.Chromium.N4JC3I  
+[33104.862939] User 1000 is opening file: /dev/shm/.org.chromium.Chromium.N4JC3I  
+[33104.862973] User 1000 is closing file descriptor: 166  
+[33104.862978] User 1000 is closing file descriptor: 172  
+[33104.862979] User 1000 is closing file descriptor: 170  
+[33104.862981] User 1000 is closing file descriptor: 166  
+[33104.862986] User 1000 is closing file descriptor: 173  
+[33104.862987] User 1000 is closing file descriptor: 170  
+[33104.863025] User 1000 is closing file descriptor: 43  
+[33104.863027] User 1000 is closing file descriptor: 60  
+[33104.863052] User 1000 is closing file descriptor: 61  
+[33104.863114] User 1000 is closing file descriptor: 43  
+[33104.863124] User 1000 is closing file descriptor: 60  
+[33104.863232] User 1000 is closing file descriptor: 166  
+[33104.863241] User 1000 is closing file descriptor: 170  
+[33104.866468] User 1000 is opening file: /proc/self/status  
+[33104.866520] User 1000 is closing file descriptor: 166  
+[33104.866528] User 1000 is opening file: /proc/self/status  
+[33104.866566] User 1000 is closing file descriptor: 166  
+[33104.877853] User 1000 is opening file: /dev/shm/.org.chromium.Chromium.5M0v7F  
+[33104.877908] User 1000 is opening file: /dev/shm/.org.chromium.Chromium.5M0v7F  
+[33104.877938] User 1000 is closing file descriptor: 166  
+[33104.877943] User 1000 is closing file descriptor: 172  
+[33104.877944] User 1000 is closing file descriptor: 170  
+[33104.877946] User 1000 is closing file descriptor: 166  
+[33104.877965] User 1000 is closing file descriptor: 173  
+[33104.877967] User 1000 is closing file descriptor: 170  
+[33104.877992] User 1000 is closing file descriptor: 43  
+[33104.877995] User 1000 is closing file descriptor: 60  
+[33104.878030] User 1000 is closing file descriptor: 61  
+[33104.879029] User 1000 is closing file descriptor: 43  
+[33104.879039] User 1000 is closing file descriptor: 60  
+[33104.879110] User 1000 is opening file: /dev/shm/.org.chromium.Chromium.PHYCbD  
+[33104.879214] User 1000 is opening file: /dev/shm/.org.chromium.Chromium.PHYCbD  
+[33104.879223] User 1000 is closing file descriptor: 166  
+[33104.879227] User 1000 is closing file descriptor: 172  
+[33104.879228] User 1000 is closing file descriptor: 170  
+[33104.879230] User 1000 is closing file descriptor: 166  
+[33104.879234] User 1000 is closing file descriptor: 173  
+[33104.879235] User 1000 is closing file descriptor: 170  
+[33104.879273] User 1000 is closing file descriptor: 166  
+[33104.879281] User 1000 is closing file descriptor: 170  
+[33104.882736] User 1000 is closing file descriptor: 43  
+[33104.882740] User 1000 is closing file descriptor: 60  
+[33104.882771] User 1000 is closing file descriptor: 61  
+[33104.883093] User 1000 is closing file descriptor: 43  
+[33104.883110] User 1000 is closing file descriptor: 60  
+[33104.883145] User 1000 is closing file descriptor: 166  
+[33104.883152] User 1000 is closing file descriptor: 170  
+[33105.372850] User 1000 is opening file: /etc/localtime  
+[33105.372906] User 1000 is closing file descriptor: 17  
+[33105.412534] User 1000 is opening file: /etc/localtime  
+[33105.412563] User 1000 is closing file descriptor: 17  
+[33106.040468] User 1000 is closing file descriptor: 25  
+[33106.041010] User 1000 is opening file: /run/user/1000/dconf/user  
+[33106.041024] User 1000 is closing file descriptor: 17  
+[33106.041028] User 1000 is opening file: /home/zonglinpeng/.config/dconf/user  
+[33106.041035] User 1000 is closing file descriptor: 17  
+[33106.042780] User 1000 is opening file: /home/zonglinpeng/.config/dconf/user.ER1IWZ  
+[33106.057891] User 1000 is closing file descriptor: 7  
+[33106.057997] User 1000 is opening file: /run/user/1000/dconf/user  
+[33106.058026] User 1000 is closing file descriptor: 7  
+[33106.070202] User 1000 is opening file: /home/zonglinpeng/.config/dconf/user.FQDLWZ  
+[33106.071412] User 1000 is closing file descriptor: 13  
+[33106.073960] User 1000 is closing file descriptor: 7  
+[33106.074098] User 1000 is opening file: /run/user/1000/dconf/user  
+[33106.372398] User 1000 is opening file: /etc/localtime  
+[33106.372419] User 1000 is closing file descriptor: 17  
+[33106.373665] User 1000 is opening file: /etc/localtime  
+[33106.373679] User 1000 is closing file descriptor: 17  
+[33106.515269] User 1000 is closing file descriptor: 25  
+[33107.373523] User 1000 is opening file: /etc/localtime  
+[33107.373547] User 1000 is closing file descriptor: 17  
+[33107.374122] User 1000 is opening file: /etc/localtime  
+[33107.374135] User 1000 is closing file descriptor: 17  
+[33108.374083] User 1000 is opening file: /etc/localtime  
+[33108.374105] User 1000 is closing file descriptor: 17  
+[33108.374577] User 1000 is opening file: /etc/localtime  
+[33108.374590] User 1000 is closing file descriptor: 17  
+[33108.591440] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/permanent/chrome/idb/1657114595AmcateirvtiSty.sqlite  
+[33108.591652] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/permanent/chrome/idb/1657114595AmcateirvtiSty.sqlite-wal  
+[33108.591992] User 1000 is opening file: /proc/self/mountinfo  
+[33108.592054] User 1000 is closing file descriptor: 129  
+[33108.595214] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite  
+[33108.595479] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite-wal  
+[33108.595829] User 1000 is opening file: /proc/self/mountinfo  
+[33108.595884] User 1000 is closing file descriptor: 132  
+[33108.596057] User 1000 is closing file descriptor: 131  
+[33108.596086] User 1000 is closing file descriptor: 129  
+[33108.596771] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite  
+[33108.596864] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite-wal  
+[33108.597175] User 1000 is opening file: /proc/self/mountinfo  
+[33108.597228] User 1000 is closing file descriptor: 132  
+[33108.597491] User 1000 is closing file descriptor: 131  
+[33108.597518] User 1000 is closing file descriptor: 129  
+[33108.597883] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite  
+[33108.597974] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite-wal  
+[33108.598280] User 1000 is opening file: /proc/self/mountinfo  
+[33108.598427] User 1000 is closing file descriptor: 132  
+[33108.598597] User 1000 is closing file descriptor: 131  
+[33108.598623] User 1000 is closing file descriptor: 129  
+[33108.602400] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite  
+[33108.602631] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite-wal  
+[33108.607285] User 1000 is opening file: /proc/self/mountinfo  
+[33108.607455] User 1000 is closing file descriptor: 132  
+[33108.608317] User 1000 is closing file descriptor: 131  
+[33108.608393] User 1000 is closing file descriptor: 129  
+[33108.608865] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite  
+[33108.608963] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite-wal  
+[33108.609341] User 1000 is opening file: /proc/self/mountinfo  
+[33108.609400] User 1000 is closing file descriptor: 132  
+[33108.609571] User 1000 is closing file descriptor: 131  
+[33108.609598] User 1000 is closing file descriptor: 129  
+[33108.639457] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite  
+[33108.639808] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite-wal  
+[33108.640928] User 1000 is opening file: /proc/self/mountinfo  
+[33108.641034] User 1000 is closing file descriptor: 132  
+[33108.675757] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite  
+[33108.676233] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite-wal  
+[33108.677021] User 1000 is opening file: /proc/self/mountinfo  
+[33108.677122] User 1000 is closing file descriptor: 134  
+[33108.677292] User 1000 is closing file descriptor: 133  
+[33108.683062] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite-wal  
+[33108.683479] User 1000 is opening file: /proc/self/mountinfo  
+[33108.683536] User 1000 is closing file descriptor: 134  
+[33108.683690] User 1000 is closing file descriptor: 133  
+[33108.684830] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite-wal  
+[33108.685279] User 1000 is opening file: /proc/self/mountinfo  
+[33108.685377] User 1000 is closing file descriptor: 134  
+[33108.685559] User 1000 is closing file descriptor: 133  
+[33108.691492] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite-wal  
+[33108.691954] User 1000 is opening file: /proc/self/mountinfo  
+[33108.692067] User 1000 is closing file descriptor: 134  
+[33108.692231] User 1000 is closing file descriptor: 133  
+[33108.694044] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite-wal  
+[33108.694337] User 1000 is opening file: /proc/self/mountinfo  
+[33108.694393] User 1000 is closing file descriptor: 134  
+[33108.694578] User 1000 is closing file descriptor: 133  
+[33108.963060] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/datareporting/aborted-session-ping.tmp  
+[33108.963169] User 1000 is closing file descriptor: 133  
+[33109.375671] User 1000 is opening file: /etc/localtime  
+[33109.375690] User 1000 is closing file descriptor: 17  
+[33109.379686] User 1000 is opening file: /etc/localtime  
+[33109.379699] User 1000 is closing file descriptor: 17  
+[33110.342847] User 1000 is closing file descriptor: 56  
+[33110.342879] User 1000 is closing file descriptor: 100  
+[33110.376434] User 1000 is opening file: /etc/localtime  
+[33110.376454] User 1000 is closing file descriptor: 17  
+[33110.377151] User 1000 is opening file: /etc/localtime  
+[33110.377161] User 1000 is closing file descriptor: 17  
+[33111.376937] User 1000 is opening file: /etc/localtime  
+[33111.377010] User 1000 is closing file descriptor: 17  
+[33111.377602] User 1000 is opening file: /etc/localtime  
+[33111.377612] User 1000 is closing file descriptor: 17  
+[33111.387774] User 1000 is closing file descriptor: 25  
+[33111.400332] User 1000 is closing file descriptor: 13  
+[33111.533396] User 1000 is closing file descriptor: 4  
+[33111.533492] User 1000 is closing file descriptor: 5  
+[33111.843599] User 1000 is closing file descriptor: 25  
+[33112.377240] User 1000 is opening file: /etc/localtime  
+[33112.377273] User 1000 is closing file descriptor: 17  
+[33112.378320] User 1000 is opening file: /etc/localtime  
+[33112.378351] User 1000 is closing file descriptor: 17  
+[33112.891360] "'Hello world?!' More like 'Goodbye, world!' EXTERMINATE!" -- Dalek
+[33112.891563] User 1000 is opening file: IAmSafe.txt  
+[33112.891577] User 1000 read from file descriptor 3 
+[33112.891578] but that read contained malicious code! 
+[33112.891581] User 1000 is closing file descriptor: 3  
+[33113.378518] User 1000 is opening file: /etc/localtime  
+[33113.378560] User 1000 is closing file descriptor: 17  
+[33113.380569] User 1000 is opening file: /etc/localtime  
+[33113.380601] User 1000 is closing file descriptor: 17  
+[33114.379396] User 1000 is opening file: /etc/localtime  
+[33114.379445] User 1000 is closing file descriptor: 17  
+[33114.380943] User 1000 is opening file: /etc/localtime  
+[33114.380965] User 1000 is closing file descriptor: 17  
+[33115.379865] User 1000 is opening file: /etc/localtime  
+[33115.379887] User 1000 is closing file descriptor: 17  
+[33115.380321] User 1000 is opening file: /etc/localtime  
+[33115.380331] User 1000 is closing file descriptor: 17  
+[33116.381211] User 1000 is opening file: /etc/localtime  
+[33116.381236] User 1000 is closing file descriptor: 17  
+[33116.381808] User 1000 is opening file: /etc/localtime  
+[33116.381820] User 1000 is closing file descriptor: 17  
+[33117.382112] User 1000 is opening file: /etc/localtime  
+[33117.382131] User 1000 is closing file descriptor: 17  
+[33117.382666] User 1000 is opening file: /etc/localtime  
+[33117.382678] User 1000 is closing file descriptor: 17  
+[33118.384796] User 1000 is opening file: /etc/localtime  
+[33118.384820] User 1000 is closing file descriptor: 17  
+[33118.385277] User 1000 is opening file: /etc/localtime  
+[33118.385288] User 1000 is closing file descriptor: 17  
+[33119.384388] User 1000 is opening file: /etc/localtime  
+[33119.384413] User 1000 is closing file descriptor: 17  
+[33119.384915] User 1000 is opening file: /etc/localtime  
+[33119.384926] User 1000 is closing file descriptor: 17  
+[33120.385814] User 1000 is opening file: /etc/localtime  
+[33120.385836] User 1000 is closing file descriptor: 17  
+[33120.386255] User 1000 is opening file: /etc/localtime  
+[33120.386265] User 1000 is closing file descriptor: 17  
+[33120.638339] User 1000 is closing file descriptor: 128  
+[33120.638391] User 1000 is closing file descriptor: 127  
+[33120.638513] User 1000 is closing file descriptor: 131  
+[33120.638585] User 1000 is closing file descriptor: 129  
+[33120.638588] User 1000 is closing file descriptor: 132  
+[33121.386851] User 1000 is opening file: /etc/localtime  
+[33121.386911] User 1000 is closing file descriptor: 17  
+[33121.388038] User 1000 is opening file: /etc/localtime  
+[33121.388052] User 1000 is closing file descriptor: 17  
+[33122.387087] User 1000 is opening file: /etc/localtime  
+[33122.387109] User 1000 is closing file descriptor: 17  
+[33122.387658] User 1000 is opening file: /etc/localtime  
+[33122.387669] User 1000 is closing file descriptor: 17  
+[33122.892304] "'Hello world?!' More like 'Goodbye, world!' EXTERMINATE!" -- Dalek
+[33122.892332] User 1000 is opening file: IAmSafe.txt  
+[33122.892347] User 1000 read from file descriptor 3 
+[33122.892348] but that read contained malicious code! 
+[33122.892351] User 1000 is closing file descriptor: 3  
+[33123.387964] User 1000 is opening file: /etc/localtime  
+[33123.388014] User 1000 is closing file descriptor: 17  
+[33123.390002] User 1000 is opening file: /etc/localtime  
+[33123.390043] User 1000 is closing file descriptor: 17  
+[33124.389030] User 1000 is opening file: /etc/localtime  
+[33124.389085] User 1000 is closing file descriptor: 17  
+[33124.390438] User 1000 is opening file: /etc/localtime  
+[33124.390459] User 1000 is closing file descriptor: 17  
+[33125.390239] User 1000 is opening file: /etc/localtime  
+[33125.390264] User 1000 is closing file descriptor: 17  
+[33125.390826] User 1000 is opening file: /etc/localtime  
+[33125.390838] User 1000 is closing file descriptor: 17  
+[33126.390967] User 1000 is opening file: /etc/localtime  
+[33126.390987] User 1000 is closing file descriptor: 17  
+[33126.391481] User 1000 is opening file: /etc/localtime  
+[33126.391492] User 1000 is closing file descriptor: 17  
+[33127.391740] User 1000 is opening file: /etc/localtime  
+[33127.391761] User 1000 is closing file descriptor: 17  
+[33127.392400] User 1000 is opening file: /etc/localtime  
+[33127.392412] User 1000 is closing file descriptor: 17  
+[33128.391932] User 1000 is opening file: /etc/localtime  
+[33128.391955] User 1000 is closing file descriptor: 17  
+[33128.392403] User 1000 is opening file: /etc/localtime  
+[33128.392414] User 1000 is closing file descriptor: 17  
+[33129.392787] User 1000 is opening file: /etc/localtime  
+[33129.392807] User 1000 is closing file descriptor: 17  
+[33129.393318] User 1000 is opening file: /etc/localtime  
+[33129.393328] User 1000 is closing file descriptor: 17  
+[33130.394145] User 1000 is opening file: /etc/localtime  
+[33130.394165] User 1000 is closing file descriptor: 17  
+[33130.394688] User 1000 is opening file: /etc/localtime  
+[33130.394698] User 1000 is closing file descriptor: 17  
+[33131.395634] User 1000 is opening file: /etc/localtime  
+[33131.395698] User 1000 is closing file descriptor: 17  
+[33131.396230] User 1000 is opening file: /etc/localtime  
+[33131.396241] User 1000 is closing file descriptor: 17  
+[33132.203528] User 1000 is opening file: /run/user/1000/dconf/user  
+[33132.203550] User 1000 is closing file descriptor: 26  
+[33132.203554] User 1000 is opening file: /home/zonglinpeng/.config/dconf/user  
+[33132.203567] User 1000 is closing file descriptor: 26  
+[33132.396316] User 1000 is opening file: /etc/localtime  
+[33132.396336] User 1000 is closing file descriptor: 17  
+[33132.397206] User 1000 is opening file: /etc/localtime  
+[33132.397219] User 1000 is closing file descriptor: 17  
+[33132.892579] "'Hello world?!' More like 'Goodbye, world!' EXTERMINATE!" -- Dalek
+[33132.892608] User 1000 is opening file: IAmSafe.txt  
+[33132.892623] User 1000 read from file descriptor 3 
+[33132.892624] but that read contained malicious code! 
+[33132.892627] User 1000 is closing file descriptor: 3  
+[33133.397314] User 1000 is opening file: /etc/localtime  
+[33133.397373] User 1000 is closing file descriptor: 17  
+[33133.399996] User 1000 is opening file: /etc/localtime  
+[33133.400046] User 1000 is closing file descriptor: 17  
+[33134.385419] User 1000 is opening file: /run/user/1000/dconf/user  
+[33134.385436] User 1000 is closing file descriptor: 100  
+[33134.385441] User 1000 is opening file: /home/zonglinpeng/.config/dconf/user  
+[33134.385449] User 1000 is closing file descriptor: 100  
+[33134.385963] User 1000 is closing file descriptor: 100  
+[33134.385980] User 1000 is opening file: /etc/hosts  
+[33134.386002] User 1000 is closing file descriptor: 127  
+[33134.386012] User 1000 is opening file: /etc/hosts  
+[33134.386188] User 1000 is closing file descriptor: 100  
+[33134.386424] User 1000 is closing file descriptor: 127  
+[33134.397656] User 1000 is opening file: /etc/localtime  
+[33134.397670] User 1000 is closing file descriptor: 17  
+[33134.398679] User 1000 is opening file: /etc/localtime  
+[33134.398689] User 1000 is closing file descriptor: 17  
+[33134.407346] User 1000 is closing file descriptor: 127  
+[33134.407399] User 1000 is closing file descriptor: 100  
+[33134.407484] User 1000 is closing file descriptor: 127  
+[33134.410671] User 1000 is closing file descriptor: 100  
+[33134.410774] User 1000 is closing file descriptor: 100  
+[33135.273199] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/prefs.js  
+[33135.273211] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/prefs-1.js  
+[33135.273237] User 1000 is closing file descriptor: 100  
+[33135.273246] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/prefs-1.js  
+[33135.275985] User 1000 is closing file descriptor: 100  
+[33135.398560] User 1000 is opening file: /etc/localtime  
+[33135.398584] User 1000 is closing file descriptor: 17  
+[33135.399870] User 1000 is opening file: /etc/localtime  
+[33135.399883] User 1000 is closing file descriptor: 17  
+[33136.398914] User 1000 is opening file: /etc/localtime  
+[33136.398936] User 1000 is closing file descriptor: 17  
+[33136.399375] User 1000 is opening file: /etc/localtime  
+[33136.399386] User 1000 is closing file descriptor: 17  
+[33137.399333] User 1000 is opening file: /etc/localtime  
+[33137.399355] User 1000 is closing file descriptor: 17  
+[33137.399822] User 1000 is opening file: /etc/localtime  
+[33137.399833] User 1000 is closing file descriptor: 17  
+[33138.400279] User 1000 is opening file: /etc/localtime  
+[33138.400309] User 1000 is closing file descriptor: 17  
+[33138.400974] User 1000 is opening file: /etc/localtime  
+[33138.401007] User 1000 is closing file descriptor: 17  
+[33139.401645] User 1000 is opening file: /etc/localtime  
+[33139.401667] User 1000 is closing file descriptor: 17  
+[33139.402224] User 1000 is opening file: /etc/localtime  
+[33139.402236] User 1000 is closing file descriptor: 17  
+[33140.403040] User 1000 is opening file: /etc/localtime  
+[33140.403118] User 1000 is closing file descriptor: 17  
+[33140.403772] User 1000 is opening file: /etc/localtime  
+[33140.403783] User 1000 is closing file descriptor: 17  
+[33141.404396] User 1000 is opening file: /etc/localtime  
+[33141.404417] User 1000 is closing file descriptor: 17  
+[33141.404971] User 1000 is opening file: /etc/localtime  
+[33141.404981] User 1000 is closing file descriptor: 17  
+[33142.405469] User 1000 is opening file: /etc/localtime  
+[33142.405490] User 1000 is closing file descriptor: 17  
+[33142.406780] User 1000 is opening file: /etc/localtime  
+[33142.406802] User 1000 is closing file descriptor: 17  
+[33142.893154] "'Hello world?!' More like 'Goodbye, world!' EXTERMINATE!" -- Dalek
+[33142.893362] User 1000 is opening file: IAmSafe.txt  
+[33142.893375] User 1000 read from file descriptor 3 
+[33142.893376] but that read contained malicious code! 
+[33142.893379] User 1000 is closing file descriptor: 3  
+[33143.406897] User 1000 is opening file: /etc/localtime  
+[33143.407007] User 1000 is closing file descriptor: 17  
+[33143.410214] User 1000 is opening file: /etc/localtime  
+[33143.410252] User 1000 is closing file descriptor: 17  
+[33144.406945] User 1000 is opening file: /etc/localtime  
+[33144.406966] User 1000 is closing file descriptor: 17  
+[33144.407416] User 1000 is opening file: /etc/localtime  
+[33144.407426] User 1000 is closing file descriptor: 17  
+[33145.408406] User 1000 is opening file: /etc/localtime  
+[33145.408428] User 1000 is closing file descriptor: 17  
+[33145.408979] User 1000 is opening file: /etc/localtime  
+[33145.408990] User 1000 is closing file descriptor: 17  
+[33146.409754] User 1000 is opening file: /etc/localtime  
+[33146.409774] User 1000 is closing file descriptor: 17  
+[33146.410293] User 1000 is opening file: /etc/localtime  
+[33146.410305] User 1000 is closing file descriptor: 17  
+[33147.410163] User 1000 is opening file: /etc/localtime  
+[33147.410181] User 1000 is closing file descriptor: 17  
+[33147.410627] User 1000 is opening file: /etc/localtime  
+[33147.410637] User 1000 is closing file descriptor: 17  
+[33148.411025] User 1000 is opening file: /etc/localtime  
+[33148.411048] User 1000 is closing file descriptor: 17  
+[33148.411817] User 1000 is opening file: /etc/localtime  
+[33148.411851] User 1000 is closing file descriptor: 17  
+[33149.412389] User 1000 is opening file: /etc/localtime  
+[33149.412411] User 1000 is closing file descriptor: 17  
+[33149.412989] User 1000 is opening file: /etc/localtime  
+[33149.413000] User 1000 is closing file descriptor: 17  
+[33150.413374] User 1000 is opening file: /etc/localtime  
+[33150.413397] User 1000 is closing file descriptor: 17  
+[33150.413932] User 1000 is opening file: /etc/localtime  
+[33150.413942] User 1000 is closing file descriptor: 17  
+[33151.414533] User 1000 is opening file: /etc/localtime  
+[33151.414556] User 1000 is closing file descriptor: 17  
+[33151.415070] User 1000 is opening file: /etc/localtime  
+[33151.415080] User 1000 is closing file descriptor: 17  
+[33151.699651] User 1000 is closing file descriptor: 49  
+[33151.703281] User 1000 is opening file: /dev/urandom  
+[33151.703416] User 1000 is closing file descriptor: 100  
+[33151.703418] User 1000 is closing file descriptor: 128  
+[33151.703883] User 1000 is closing file descriptor: 24  
+[33151.703898] User 1000 is closing file descriptor: 49  
+[33151.703928] User 1000 is closing file descriptor: 24  
+[33151.703930] User 1000 is closing file descriptor: 49  
+[33151.704015] User 1000 is closing file descriptor: 24  
+[33151.704760] User 1000 is closing file descriptor: 50  
+[33151.706864] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/default/https+++mail.google.com/cache/morgue/231/{84a288d7-b87b-49ed-8d57-19726db99fe7}.final  
+[33151.711115] User 1000 is closing file descriptor: 128  
+[33151.711127] User 1000 is closing file descriptor: 129  
+[33151.711157] User 1000 is closing file descriptor: 128  
+[33151.711190] User 1000 is closing file descriptor: 131  
+[33151.711420] User 1000 is closing file descriptor: 24  
+[33151.711523] User 1000 is closing file descriptor: 24  
+[33151.711525] User 1000 is closing file descriptor: 49  
+[33151.720529] User 1000 is closing file descriptor: 50  
+[33151.788207] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/default/https+++mail.google.com/idb/953658429glmaaviyle-ks-w.sqlite  
+[33151.788582] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/storage/default/https+++mail.google.com/idb/953658429glmaaviyle-ks-w.sqlite-wal  
+[33151.789501] User 1000 is opening file: /proc/self/mountinfo  
+[33151.789700] User 1000 is closing file descriptor: 131  
+[33151.790142] User 1000 is closing file descriptor: 129  
+[33151.790257] User 1000 is closing file descriptor: 128  
+[33151.803485] User 1000 is closing file descriptor: 128  
+[33151.806271] User 1000 is opening file: /etc/hosts  
+[33151.806920] User 1000 is closing file descriptor: 128  
+[33151.834640] User 1000 is closing file descriptor: 128  
+[33151.834669] User 1000 is closing file descriptor: 128  
+[33151.834685] User 1000 is closing file descriptor: 128  
+[33152.415805] User 1000 is opening file: /etc/localtime  
+[33152.415868] User 1000 is closing file descriptor: 17  
+[33152.424325] User 1000 is opening file: /etc/localtime  
+[33152.424378] User 1000 is closing file descriptor: 17  
+[33152.893754] "'Hello world?!' More like 'Goodbye, world!' EXTERMINATE!" -- Dalek
+[33152.893794] User 1000 is opening file: IAmSafe.txt  
+[33152.893809] User 1000 read from file descriptor 3 
+[33152.893810] but that read contained malicious code! 
+[33152.893813] User 1000 is closing file descriptor: 3  
+[33153.419354] User 1000 is opening file: /etc/localtime  
+[33153.419375] User 1000 is closing file descriptor: 17  
+[33153.420120] User 1000 is opening file: /etc/localtime  
+[33153.420131] User 1000 is closing file descriptor: 17  
+[33154.420242] User 1000 is opening file: /etc/localtime  
+[33154.420263] User 1000 is closing file descriptor: 17  
+[33154.420838] User 1000 is opening file: /etc/localtime  
+[33154.420848] User 1000 is closing file descriptor: 17  
+[33155.420747] User 1000 is opening file: /etc/localtime  
+[33155.420769] User 1000 is closing file descriptor: 17  
+[33155.421386] User 1000 is opening file: /etc/localtime  
+[33155.421398] User 1000 is closing file descriptor: 17  
+[33156.421582] User 1000 is opening file: /etc/localtime  
+[33156.421601] User 1000 is closing file descriptor: 17  
+[33156.422048] User 1000 is opening file: /etc/localtime  
+[33156.422058] User 1000 is closing file descriptor: 17  
+[33157.422001] User 1000 is opening file: /etc/localtime  
+[33157.422022] User 1000 is closing file descriptor: 17  
+[33157.422548] User 1000 is opening file: /etc/localtime  
+[33157.422561] User 1000 is closing file descriptor: 17  
+[33158.422865] User 1000 is opening file: /etc/localtime  
+[33158.422887] User 1000 is closing file descriptor: 17  
+[33158.423517] User 1000 is opening file: /etc/localtime  
+[33158.423528] User 1000 is closing file descriptor: 17  
+[33159.424219] User 1000 is opening file: /etc/localtime  
+[33159.424241] User 1000 is closing file descriptor: 17  
+[33159.424788] User 1000 is opening file: /etc/localtime  
+[33159.424798] User 1000 is closing file descriptor: 17  
+[33160.186220] User 1000 is opening file: /etc/localtime  
+[33160.186280] User 1000 is closing file descriptor: 11  
+[33160.186359] User 1000 is opening file: /etc/localtime  
+[33160.186367] User 1000 is closing file descriptor: 11  
+[33160.425589] User 1000 is opening file: /etc/localtime  
+[33160.425610] User 1000 is closing file descriptor: 17  
+[33160.426317] User 1000 is opening file: /etc/localtime  
+[33160.426328] User 1000 is closing file descriptor: 17  
+[33161.037027] User 1000 is closing file descriptor: 128  
+[33161.037048] User 1000 is opening file: /etc/hosts  
+[33161.037101] User 1000 is closing file descriptor: 129  
+[33161.037113] User 1000 is opening file: /etc/hosts  
+[33161.037206] User 1000 is closing file descriptor: 128  
+[33161.037267] User 1000 is closing file descriptor: 129  
+[33161.044908] User 1000 is closing file descriptor: 128  
+[33161.047518] User 1000 is closing file descriptor: 129  
+[33161.050526] User 1000 is closing file descriptor: 128  
+[33161.050547] User 1000 is closing file descriptor: 128  
+[33161.050564] User 1000 is closing file descriptor: 128  
+[33161.426262] User 1000 is opening file: /etc/localtime  
+[33161.426320] User 1000 is closing file descriptor: 17  
+[33161.429216] User 1000 is opening file: /etc/localtime  
+[33161.429247] User 1000 is closing file descriptor: 17  
+[33162.212018] User 1000 is opening file: /etc/fstab  
+[33162.212073] User 1000 is closing file descriptor: 26  
+[33162.212079] User 1000 is opening file: /proc/mounts  
+[33162.212315] User 1000 is closing file descriptor: 26  
+[33162.426735] User 1000 is opening file: /etc/localtime  
+[33162.426776] User 1000 is closing file descriptor: 17  
+[33162.428613] User 1000 is opening file: /etc/localtime  
+[33162.428636] User 1000 is closing file descriptor: 17  
+[33162.893866] "'Hello world?!' More like 'Goodbye, world!' EXTERMINATE!" -- Dalek
+[33162.893900] User 1000 is opening file: IAmSafe.txt  
+[33162.893915] User 1000 read from file descriptor 3 
+[33162.893916] but that read contained malicious code! 
+[33162.893920] User 1000 is closing file descriptor: 3  
+[33163.426810] User 1000 is opening file: /etc/localtime  
+[33163.426831] User 1000 is closing file descriptor: 17  
+[33163.427661] User 1000 is opening file: /etc/localtime  
+[33163.427672] User 1000 is closing file descriptor: 17  
+[33164.427677] User 1000 is opening file: /etc/localtime  
+[33164.427698] User 1000 is closing file descriptor: 17  
+[33164.428148] User 1000 is opening file: /etc/localtime  
+[33164.428159] User 1000 is closing file descriptor: 17  
+[33165.428870] User 1000 is opening file: /etc/localtime  
+[33165.428889] User 1000 is closing file descriptor: 17  
+[33165.429517] User 1000 is opening file: /etc/localtime  
+[33165.429531] User 1000 is closing file descriptor: 17  
+[33166.429447] User 1000 is opening file: /etc/localtime  
+[33166.429465] User 1000 is closing file descriptor: 17  
+[33166.429916] User 1000 is opening file: /etc/localtime  
+[33166.429927] User 1000 is closing file descriptor: 17  
+[33167.429814] User 1000 is opening file: /etc/localtime  
+[33167.429833] User 1000 is closing file descriptor: 17  
+[33167.430254] User 1000 is opening file: /etc/localtime  
+[33167.430265] User 1000 is closing file descriptor: 17  
+[33168.431115] User 1000 is opening file: /etc/localtime  
+[33168.431174] User 1000 is closing file descriptor: 17  
+[33168.431967] User 1000 is opening file: /etc/localtime  
+[33168.431978] User 1000 is closing file descriptor: 17  
+[33169.432574] User 1000 is opening file: /etc/localtime  
+[33169.432595] User 1000 is closing file descriptor: 17  
+[33169.433038] User 1000 is opening file: /etc/localtime  
+[33169.433047] User 1000 is closing file descriptor: 17  
+[33170.433337] User 1000 is opening file: /etc/localtime  
+[33170.433379] User 1000 is closing file descriptor: 17  
+[33170.434769] User 1000 is opening file: /etc/localtime  
+[33170.434781] User 1000 is closing file descriptor: 17  
+[33171.433765] User 1000 is opening file: /etc/localtime  
+[33171.433814] User 1000 is closing file descriptor: 17  
+[33171.435124] User 1000 is opening file: /etc/localtime  
+[33171.435146] User 1000 is closing file descriptor: 17  
+[33171.582141] User 1000 is closing file descriptor: 4  
+[33171.582171] User 1000 is closing file descriptor: 5  
+[33172.320625] User 1000 is closing file descriptor: 128  
+[33172.320649] User 1000 is opening file: /etc/hosts  
+[33172.320842] User 1000 is closing file descriptor: 128  
+[33172.330075] User 1000 is closing file descriptor: 128  
+[33172.330103] User 1000 is closing file descriptor: 128  
+[33172.330136] User 1000 is closing file descriptor: 128  
+[33172.433886] User 1000 is opening file: /etc/localtime  
+[33172.433909] User 1000 is closing file descriptor: 17  
+[33172.434932] User 1000 is opening file: /etc/localtime  
+[33172.434942] User 1000 is closing file descriptor: 17  
+[33172.893961] "'Hello world?!' More like 'Goodbye, world!' EXTERMINATE!" -- Dalek
+[33172.894489] User 1000 is opening file: IAmSafe.txt  
+[33172.894516] User 1000 read from file descriptor 3 
+[33172.894518] but that read contained malicious code! 
+[33172.894521] User 1000 is closing file descriptor: 3  
+[33173.434690] User 1000 is opening file: /etc/localtime  
+[33173.434711] User 1000 is closing file descriptor: 17  
+[33173.435591] User 1000 is opening file: /etc/localtime  
+[33173.435602] User 1000 is closing file descriptor: 17  
+[33174.435037] User 1000 is opening file: /etc/localtime  
+[33174.435059] User 1000 is closing file descriptor: 17  
+[33174.435616] User 1000 is opening file: /etc/localtime  
+[33174.435627] User 1000 is closing file descriptor: 17  
+[33174.669130] User 1000 is closing file descriptor: 128  
+[33174.669150] User 1000 is opening file: /etc/hosts  
+[33174.669307] User 1000 is closing file descriptor: 128  
+[33174.674941] User 1000 is closing file descriptor: 128  
+[33174.681839] User 1000 is closing file descriptor: 128  
+[33174.681867] User 1000 is closing file descriptor: 128  
+[33174.681883] User 1000 is closing file descriptor: 128  
+[33175.435981] User 1000 is opening file: /etc/localtime  
+[33175.436001] User 1000 is closing file descriptor: 17  
+[33175.436907] User 1000 is opening file: /etc/localtime  
+[33175.436918] User 1000 is closing file descriptor: 17  
+[33176.437303] User 1000 is opening file: /etc/localtime  
+[33176.437324] User 1000 is closing file descriptor: 17  
+[33176.437771] User 1000 is opening file: /etc/localtime  
+[33176.437781] User 1000 is closing file descriptor: 17  
+[33177.015243] User 1000 is closing file descriptor: 128  
+[33177.015265] User 1000 is opening file: /etc/hosts  
+[33177.015424] User 1000 is closing file descriptor: 128  
+[33177.015652] User 1000 is opening file: /home/zonglinpeng/.cache/mozilla/firefox/2fhgwa8r.default/cache2/entries/A2B50F28B7B73C195150F065FBE586C3221DD6F6  
+[33177.015958] User 1000 is closing file descriptor: 132  
+[33177.015969] User 1000 is opening file: /etc/hosts  
+[33177.016121] User 1000 is closing file descriptor: 132  
+[33177.042649] User 1000 is closing file descriptor: 132  
+[33177.042713] User 1000 is closing file descriptor: 128  
+[33177.046629] User 1000 is closing file descriptor: 128  
+[33177.046652] User 1000 is closing file descriptor: 128  
+[33177.046668] User 1000 is closing file descriptor: 128  
+[33177.222089] User 1000 is closing file descriptor: 131  
+[33177.438212] User 1000 is opening file: /etc/localtime  
+[33177.438233] User 1000 is closing file descriptor: 17  
+[33177.439507] User 1000 is opening file: /etc/localtime  
+[33177.439518] User 1000 is closing file descriptor: 17  
+[33177.511315] User 1000 is closing file descriptor: 128  
+[33177.511335] User 1000 is opening file: /etc/hosts  
+[33177.511492] User 1000 is closing file descriptor: 128  
+[33177.515216] User 1000 is closing file descriptor: 131  
+[33177.515230] User 1000 is opening file: /etc/hosts  
+[33177.515384] User 1000 is closing file descriptor: 131  
+[33177.517642] User 1000 is closing file descriptor: 128  
+[33177.522820] User 1000 is closing file descriptor: 131  
+[33177.525797] User 1000 is closing file descriptor: 128  
+[33177.525850] User 1000 is closing file descriptor: 128  
+[33177.525883] User 1000 is closing file descriptor: 128  
+[33178.438626] User 1000 is opening file: /etc/localtime  
+[33178.438647] User 1000 is closing file descriptor: 17  
+[33178.439942] User 1000 is opening file: /etc/localtime  
+[33178.439953] User 1000 is closing file descriptor: 17  
+[33179.439443] User 1000 is opening file: /etc/localtime  
+[33179.439465] User 1000 is closing file descriptor: 17  
+[33179.439883] User 1000 is opening file: /etc/localtime  
+[33179.439894] User 1000 is closing file descriptor: 17  
+[33180.440146] User 1000 is opening file: /etc/localtime  
+[33180.440205] User 1000 is closing file descriptor: 17  
+[33180.441487] User 1000 is opening file: /etc/localtime  
+[33180.441536] User 1000 is closing file descriptor: 17  
+[33181.441165] User 1000 is opening file: /etc/localtime  
+[33181.441214] User 1000 is closing file descriptor: 17  
+[33181.442694] User 1000 is opening file: /etc/localtime  
+[33181.442717] User 1000 is closing file descriptor: 17  
+[33182.440675] User 1000 is opening file: /etc/localtime  
+[33182.440694] User 1000 is closing file descriptor: 17  
+[33182.441152] User 1000 is opening file: /etc/localtime  
+[33182.441163] User 1000 is closing file descriptor: 17  
+[33182.485931] User 1000 is closing file descriptor: 128  
+[33182.486000] User 1000 is opening file: /etc/hosts  
+[33182.486400] User 1000 is closing file descriptor: 128  
+[33182.489606] User 1000 is closing file descriptor: 133  
+[33182.489634] User 1000 is opening file: /etc/hosts  
+[33182.489899] User 1000 is closing file descriptor: 133  
+[33182.490151] User 1000 is closing file descriptor: 128  
+[33182.498920] User 1000 is closing file descriptor: 133  
+[33182.499044] User 1000 is closing file descriptor: 128  
+[33182.499141] User 1000 is closing file descriptor: 128  
+[33182.499169] User 1000 is closing file descriptor: 128  
+[33182.894612] "'Hello world?!' More like 'Goodbye, world!' EXTERMINATE!" -- Dalek
+[33182.895378] User 1000 is opening file: IAmSafe.txt  
+[33182.895430] User 1000 read from file descriptor 3 
+[33182.895432] but that read contained malicious code! 
+[33182.895435] User 1000 is closing file descriptor: 3  
+[33183.441882] User 1000 is opening file: /etc/localtime  
+[33183.441901] User 1000 is closing file descriptor: 17  
+[33183.443208] User 1000 is opening file: /etc/localtime  
+[33183.443219] User 1000 is closing file descriptor: 17  
+[33184.441955] User 1000 is opening file: /etc/localtime  
+[33184.441977] User 1000 is closing file descriptor: 17  
+[33184.442478] User 1000 is opening file: /etc/localtime  
+[33184.442488] User 1000 is closing file descriptor: 17  
+[33185.403190] User 1000 is opening file: /home/zonglinpeng/.mozilla/firefox/2fhgwa8r.default/SiteSecurityServiceState.txt  
+[33185.403264] User 1000 is closing file descriptor: 134  
+[33185.442353] User 1000 is opening file: /etc/localtime  
+[33185.442374] User 1000 is closing file descriptor: 17  
+[33185.443023] User 1000 is opening file: /etc/localtime  
+[33185.443032] User 1000 is closing file descriptor: 17  
+[33186.443561] User 1000 is opening file: /etc/localtime  
+[33186.443601] User 1000 is closing file descriptor: 17  
+[33186.444231] User 1000 is opening file: /etc/localtime  
+[33186.444241] User 1000 is closing file descriptor: 17  
+[33187.444106] User 1000 is opening file: /etc/localtime  
+[33187.444128] User 1000 is closing file descriptor: 17  
+[33187.444640] User 1000 is opening file: /etc/localtime  
+[33187.444650] User 1000 is closing file descriptor: 17  
+[33188.445653] User 1000 is opening file: /etc/localtime  
+[33188.445697] User 1000 is closing file descriptor: 17  
+[33188.446962] User 1000 is opening file: /etc/localtime  
+[33188.446973] User 1000 is closing file descriptor: 17  
+[33189.446059] User 1000 is opening file: /etc/localtime  
+[33189.446126] User 1000 is closing file descriptor: 17  
+[33189.447470] User 1000 is opening file: /etc/localtime  
+[33189.447509] User 1000 is closing file descriptor: 17  
+[33190.446126] User 1000 is opening file: /etc/localtime  
+[33190.446167] User 1000 is closing file descriptor: 17  
+[33190.447559] User 1000 is opening file: /etc/localtime  
+[33190.447580] User 1000 is closing file descriptor: 17  
+[33191.447328] User 1000 is opening file: /etc/localtime  
+[33191.447350] User 1000 is closing file descriptor: 17  
+[33191.447832] User 1000 is opening file: /etc/localtime  
+[33191.447864] User 1000 is closing file descriptor: 17  
+[33191.541111] User 1000 is closing file descriptor: 89  
+[33192.448518] User 1000 is opening file: /etc/localtime  
+[33192.448537] User 1000 is closing file descriptor: 17  
+[33192.449038] User 1000 is opening file: /etc/localtime  
+[33192.449048] User 1000 is closing file descriptor: 17  
+[33192.910801] "'Hello world?!' More like 'Goodbye, world!' EXTERMINATE!" -- Dalek
+[33192.910844] User 1000 is opening file: IAmSafe.txt  
+[33192.910872] User 1000 read from file descriptor 3 
+[33192.910883] but that read contained malicious code! 
+[33192.910886] User 1000 is closing file descriptor: 3  
+[33193.448976] User 1000 is opening file: /etc/localtime  
+[33193.448996] User 1000 is closing file descriptor: 17  
+[33193.449789] User 1000 is opening file: /etc/localtime  
+[33193.449800] User 1000 is closing file descriptor: 17  
+[33194.449875] User 1000 is opening file: /etc/localtime  
+[33194.449894] User 1000 is closing file descriptor: 17  
+[33194.450453] User 1000 is opening file: /etc/localtime  
+[33194.450463] User 1000 is closing file descriptor: 17  
+[33194.929111] User 1000 is closing file descriptor: 127  
+[33195.451276] User 1000 is opening file: /etc/localtime  
+[33195.451295] User 1000 is closing file descriptor: 17  
+[33195.451846] User 1000 is opening file: /etc/localtime  
+[33195.451857] User 1000 is closing file descriptor: 17  
+[33195.536537] User 1000 is closing file descriptor: 89  
+[33195.536557] User 1000 is opening file: /etc/hosts  
+[33195.536714] User 1000 is closing file descriptor: 89  
+[33195.566453] User 1000 is closing file descriptor: 89  
+[33195.579002] User 1000 is closing file descriptor: 89  
+[33195.579096] User 1000 is closing file descriptor: 89  
+[33195.579134] User 1000 is closing file descriptor: 89  
+[33196.452595] User 1000 is opening file: /etc/localtime  
+[33196.452617] User 1000 is closing file descriptor: 17  
+[33196.453530] User 1000 is opening file: /etc/localtime  
+[33196.453540] User 1000 is closing file descriptor: 17  
+[33197.453472] User 1000 is opening file: /etc/localtime  
+[33197.453493] User 1000 is closing file descriptor: 17  
+[33197.453977] User 1000 is opening file: /etc/localtime  
+[33197.453990] User 1000 is closing file descriptor: 17  
+[33198.454538] User 1000 is opening file: /etc/localtime  
+[33198.454623] User 1000 is closing file descriptor: 17  
+[33198.456376] User 1000 is opening file: /etc/localtime  
+[33198.456401] User 1000 is closing file descriptor: 17  
+[33199.455336] User 1000 is opening file: /etc/localtime  
+[33199.455379] User 1000 is closing file descriptor: 17  
+[33199.456625] User 1000 is opening file: /etc/localtime  
+[33199.456671] User 1000 is closing file descriptor: 17  
+[33200.455729] User 1000 is opening file: /etc/localtime  
+[33200.455764] User 1000 is closing file descriptor: 17  
+[33200.456290] User 1000 is opening file: /etc/localtime  
+[33200.456302] User 1000 is closing file descriptor: 17  
+[33200.534163] User 1000 is opening file: /home/zonglinpeng/.cache/mozilla/firefox/2fhgwa8r.default/cache2/entries/60059D769D21AB40F945A158C5CFD97C960B626C  
+[33200.534213] User 1000 is closing file descriptor: 89  
+[33201.456570] User 1000 is opening file: /etc/localtime  
+[33201.456591] User 1000 is closing file descriptor: 17  
+[33201.457268] User 1000 is opening file: /etc/localtime  
+[33201.457279] User 1000 is closing file descriptor: 17  
+[33202.458385] User 1000 is opening file: /etc/localtime  
+[33202.458404] User 1000 is closing file descriptor: 17  
+[33202.458846] User 1000 is opening file: /etc/localtime  
+[33202.458856] User 1000 is closing file descriptor: 17  
+[33203.459327] User 1000 is opening file: /etc/localtime  
+[33203.459346] User 1000 is closing file descriptor: 17  
+[33203.459887] User 1000 is opening file: /etc/localtime  
+[33203.459897] User 1000 is closing file descriptor: 17  
+[33204.460135] User 1000 is opening file: /etc/localtime  
+[33204.460156] User 1000 is closing file descriptor: 17  
+[33204.460630] User 1000 is opening file: /etc/localtime  
+[33204.460641] User 1000 is closing file descriptor: 17  
+[33205.460181] User 1000 is opening file: /etc/localtime  
+[33205.460200] User 1000 is closing file descriptor: 17  
+[33205.460660] User 1000 is opening file: /etc/localtime  
+[33205.460670] User 1000 is closing file descriptor: 17  
+[33206.460882] User 1000 is opening file: /etc/localtime  
+[33206.460901] User 1000 is closing file descriptor: 17  
+[33206.461343] User 1000 is opening file: /etc/localtime  
+[33206.461353] User 1000 is closing file descriptor: 17  
+[33207.462308] User 1000 is opening file: /etc/localtime  
+[33207.462339] User 1000 is closing file descriptor: 17  
+[33207.463682] User 1000 is opening file: /etc/localtime  
+[33207.463705] User 1000 is closing file descriptor: 17  
+[33208.463332] User 1000 is opening file: /etc/localtime  
+[33208.463379] User 1000 is closing file descriptor: 17  
+[33208.464627] User 1000 is opening file: /etc/localtime  
+[33208.464661] User 1000 is closing file descriptor: 17  
+[33209.464097] User 1000 is opening file: /etc/localtime  
+[33209.464118] User 1000 is closing file descriptor: 17  
+[33209.464560] User 1000 is opening file: /etc/localtime  
+[33209.464571] User 1000 is closing file descriptor: 17  
+[33210.465066] User 1000 is opening file: /etc/localtime  
+[33210.465090] User 1000 is closing file descriptor: 17  
+[33210.465672] User 1000 is opening file: /etc/localtime  
+[33210.465684] User 1000 is closing file descriptor: 17  
+[33211.465626] User 1000 is opening file: /etc/localtime  
+[33211.465682] User 1000 is closing file descriptor: 17  
+[33211.466168] User 1000 is opening file: /etc/localtime  
+[33211.466179] User 1000 is closing file descriptor: 17  
+[33212.466330] User 1000 is opening file: /etc/localtime  
+[33212.466362] User 1000 is closing file descriptor: 17  
+[33212.467001] User 1000 is opening file: /etc/localtime  
+[33212.467033] User 1000 is closing file descriptor: 17  
+[33213.240745] User 1000 is closing file descriptor: 3  
+[33213.240749] User 1000 is closing file descriptor: 4  
+[33213.370915] User 1000 is closing file descriptor: 4  
+[33213.370934] User 1000 is closing file descriptor: 3  
+[33213.371785] User 1000 is opening file: /usr/lib/sudo/tls/i686/sse2/cmov/libaudit.so.1  
+[33213.371792] User 1000 is opening file: /usr/lib/sudo/tls/i686/sse2/libaudit.so.1  
+[33213.371805] User 1000 is opening file: /usr/lib/sudo/tls/i686/cmov/libaudit.so.1  
+[33213.371808] User 1000 is opening file: /usr/lib/sudo/tls/i686/libaudit.so.1  
+[33213.371811] User 1000 is opening file: /usr/lib/sudo/tls/sse2/cmov/libaudit.so.1  
+[33213.371860] User 1000 is opening file: /usr/lib/sudo/tls/sse2/libaudit.so.1  
+[33213.371863] User 1000 is opening file: /usr/lib/sudo/tls/cmov/libaudit.so.1  
+[33213.371866] User 1000 is opening file: /usr/lib/sudo/tls/libaudit.so.1  
+[33213.371879] User 1000 is opening file: /usr/lib/sudo/i686/sse2/cmov/libaudit.so.1  
+[33213.371883] User 1000 is opening file: /usr/lib/sudo/i686/sse2/libaudit.so.1  
+[33213.371886] User 1000 is opening file: /usr/lib/sudo/i686/cmov/libaudit.so.1  
+[33213.371898] User 1000 is opening file: /usr/lib/sudo/i686/libaudit.so.1  
+[33213.371901] User 1000 is opening file: /usr/lib/sudo/sse2/cmov/libaudit.so.1  
+[33213.371905] User 1000 is opening file: /usr/lib/sudo/sse2/libaudit.so.1  
+[33213.371918] User 1000 is opening file: /usr/lib/sudo/cmov/libaudit.so.1  
+[33213.371921] User 1000 is opening file: /usr/lib/sudo/libaudit.so.1  
+[33213.371936] User 1000 is opening file: /etc/ld.so.cache  
+[33213.371942] User 1000 is closing file descriptor: 3  
+[33213.372007] User 1000 is opening file: /lib/i386-linux-gnu/libaudit.so.1  
+[33213.372088] User 1000 is closing file descriptor: 3  
+[33213.372105] User 1000 is opening file: /usr/lib/sudo/libselinux.so.1  
+[33213.372121] User 1000 is opening file: /lib/i386-linux-gnu/libselinux.so.1  
+[33213.372210] User 1000 is closing file descriptor: 3  
+[33213.372235] User 1000 is opening file: /usr/lib/sudo/libutil.so.1  
+[33213.372250] User 1000 is opening file: /lib/i386-linux-gnu/libutil.so.1  
+[33213.372305] User 1000 is closing file descriptor: 3  
+[33213.372309] User 1000 is opening file: /usr/lib/sudo/libsudo_util.so.0  
+[33213.372347] User 1000 is closing file descriptor: 3  
+[33213.372364] User 1000 is opening file: /usr/lib/sudo/libc.so.6  
+[33213.372380] User 1000 is opening file: /lib/i386-linux-gnu/libc.so.6  
+[33213.372453] User 1000 is closing file descriptor: 3  
+[33213.372491] User 1000 is opening file: /usr/lib/sudo/libpcre.so.3  
+[33213.372506] User 1000 is opening file: /lib/i386-linux-gnu/libpcre.so.3  
+[33213.372563] User 1000 is closing file descriptor: 3  
+[33213.372588] User 1000 is opening file: /usr/lib/sudo/libdl.so.2  
+[33213.372603] User 1000 is opening file: /lib/i386-linux-gnu/libdl.so.2  
+[33213.372672] User 1000 is closing file descriptor: 3  
+[33213.372714] User 1000 is opening file: /usr/lib/sudo/libpthread.so.0  
+[33213.372730] User 1000 is opening file: /lib/i386-linux-gnu/libpthread.so.0  
+[33213.372776] User 1000 is closing file descriptor: 3  
+[33213.373591] User 1000 is opening file: /proc/filesystems  
+[33213.373738] User 1000 is closing file descriptor: 3  
+[33213.373820] User 1000 is opening file: /usr/lib/locale/locale-archive  
+[33213.373858] User 1000 is closing file descriptor: 3  
+[33213.373939] User 1000 is opening file: /etc/localtime  
+[33213.373994] User 1000 is closing file descriptor: 3  
+[33213.374118] User 1000 is opening file: /dev/tty  
+[33213.374136] User 1000 is closing file descriptor: 3  
+[33213.374208] User 1000 is closing file descriptor: 3  
+[33213.374217] User 1000 is closing file descriptor: 3  
+[33213.374253] User 1000 is opening file: /etc/nsswitch.conf  
+[33213.374343] User 1000 is closing file descriptor: 3  
+[33213.374360] User 1000 is opening file: /usr/lib/sudo/libnss_compat.so.2  
+[33213.374364] User 1000 is opening file: /etc/ld.so.cache  
+[33213.374379] User 1000 is closing file descriptor: 3  
+[33213.374397] User 1000 is opening file: /lib/i386-linux-gnu/libnss_compat.so.2  
+[33213.374438] User 1000 is closing file descriptor: 3  
+[33213.374454] User 1000 is opening file: /usr/lib/sudo/libnsl.so.1  
+[33213.374460] User 1000 is opening file: /lib/i386-linux-gnu/libnsl.so.1  
+[33213.374548] User 1000 is closing file descriptor: 3  
+[33213.374647] User 1000 is opening file: /usr/lib/sudo/libnss_nis.so.2  
+[33213.374652] User 1000 is opening file: /etc/ld.so.cache  
+[33213.374673] User 1000 is closing file descriptor: 3  
+[33213.466805] User 1000 is opening file: /etc/localtime  
+[33213.466826] User 1000 is closing file descriptor: 17  
+[33213.471249] User 1000 is opening file: /etc/localtime  
+[33213.471301] User 1000 is closing file descriptor: 17  
+[33213.673155] User 1000 is opening file: /lib/i386-linux-gnu/libnss_nis.so.2  
+[33213.690943] User 1000 is closing file descriptor: 3  
+[33213.690963] User 1000 is opening file: /usr/lib/sudo/libnss_files.so.2  
+[33213.690976] User 1000 is opening file: /lib/i386-linux-gnu/libnss_files.so.2  
+[33213.691008] User 1000 is closing file descriptor: 3  
+[33213.691053] User 1000 is opening file: /etc/passwd  
+[33213.691086] User 1000 is closing file descriptor: 3  
+[33213.691100] User 1000 is opening file: /proc/sys/kernel/ngroups_max  
+[33213.691108] User 1000 is closing file descriptor: 3  
+[33213.691121] User 1000 is opening file: /proc/13262/stat  
+[33213.691144] User 1000 is closing file descriptor: 3  
+[33213.691206] User 1000 is closing file descriptor: 3  
+[33213.691227] User 1000 is opening file: /usr/lib/sudo/sudoers.so  
+[33213.691249] User 1000 is closing file descriptor: 3  
+[33213.691258] User 1000 is opening file: /usr/lib/sudo/libpam.so.0  
+[33213.691261] User 1000 is opening file: /usr/lib/sudo/libpam.so.0  
+[33213.691264] User 1000 is opening file: /etc/ld.so.cache  
+[33213.691269] User 1000 is closing file descriptor: 3  
+[33213.691277] User 1000 is opening file: /lib/i386-linux-gnu/libpam.so.0  
+[33213.691297] User 1000 is closing file descriptor: 3  
+[33213.691427] User 1000 is opening file: /etc/passwd  
+[33213.691442] User 1000 is opening file: /etc/default/nss  
+[33213.691520] User 1000 is closing file descriptor: 4  
+[33213.691530] User 1000 is opening file: /etc/group  
+[33213.691540] User 1000 is opening file: /usr/share/locale/locale.alias  
+[33213.691670] User 1000 is closing file descriptor: 5  
+[33213.691684] User 1000 is opening file: /usr/share/locale/en_US/LC_MESSAGES/sudoers.mo  
+[33213.691687] User 1000 is opening file: /usr/share/locale/en/LC_MESSAGES/sudoers.mo  
+[33213.691690] User 1000 is opening file: /usr/share/locale-langpack/en_US/LC_MESSAGES/sudoers.mo  
+[33213.691693] User 1000 is opening file: /usr/share/locale-langpack/en/LC_MESSAGES/sudoers.mo  
+[33213.691725] User 1000 is opening file: /etc/passwd  
+[33213.691751] User 1000 is closing file descriptor: 5  
+[33213.691770] User 1000 is closing file descriptor: 5  
+[33213.691777] User 1000 is closing file descriptor: 5  
+[33213.691781] User 1000 is opening file: /etc/group  
+[33213.691810] User 1000 is closing file descriptor: 5  
+[33213.691815] User 1000 is opening file: /etc/group  
+[33213.691824] User 1000 is closing file descriptor: 5  
+[33213.691829] User 1000 is opening file: /etc/group  
+[33213.691882] User 1000 is closing file descriptor: 5  
+[33213.691889] User 1000 is opening file: /etc/group  
+[33213.691923] User 1000 is closing file descriptor: 5  
+[33213.691928] User 1000 is opening file: /etc/group  
+[33213.691940] User 1000 is closing file descriptor: 5  
+[33213.691944] User 1000 is opening file: /etc/group  
+[33213.691959] User 1000 is closing file descriptor: 5  
+[33213.691964] User 1000 is opening file: /etc/group  
+[33213.691982] User 1000 is closing file descriptor: 5  
+[33213.691986] User 1000 is opening file: /etc/group  
+[33213.692008] User 1000 is closing file descriptor: 5  
+[33213.692014] User 1000 is opening file: /etc/nsswitch.conf  
+[33213.692050] User 1000 is closing file descriptor: 5  
+[33213.692265] User 1000 is opening file: /proc/sys/kernel/ngroups_max  
+[33213.692271] User 1000 is closing file descriptor: 8  
+[33213.692288] User 1000 is opening file: /etc/group  
+[33213.692317] User 1000 is closing file descriptor: 8  
+[33213.692325] User 1000 is opening file: /etc/group  
+[33213.692333] User 1000 is closing file descriptor: 8  
+[33213.692498] User 1000 is opening file: /etc/pam.d/sudo  
+[33213.692518] User 1000 is opening file: /lib/i386-linux-gnu/security/pam_env.so  
+[33213.692536] User 1000 is closing file descriptor: 9  
+[33213.692573] User 1000 is opening file: /etc/pam.d/common-auth  
+[33213.692611] User 1000 is opening file: /lib/i386-linux-gnu/security/pam_unix.so  
+[33213.692632] User 1000 is closing file descriptor: 10  
+[33213.692640] User 1000 is opening file: /usr/lib/sudo/libcrypt.so.1  
+[33213.692644] User 1000 is opening file: /etc/ld.so.cache  
+[33213.692648] User 1000 is closing file descriptor: 10  
+[33213.692658] User 1000 is opening file: /lib/i386-linux-gnu/libcrypt.so.1  
+[33213.692679] User 1000 is closing file descriptor: 10  
+[33213.692772] User 1000 is opening file: /lib/i386-linux-gnu/security/pam_deny.so  
+[33213.692789] User 1000 is closing file descriptor: 10  
+[33213.692804] User 1000 is opening file: /lib/i386-linux-gnu/security/pam_permit.so  
+[33213.692857] User 1000 is closing file descriptor: 10  
+[33213.692917] User 1000 is closing file descriptor: 9  
+[33213.692923] User 1000 is opening file: /etc/pam.d/common-account  
+[33213.692982] User 1000 is closing file descriptor: 9  
+[33213.692986] User 1000 is opening file: /etc/pam.d/common-session-noninteractive  
+[33213.693031] User 1000 is opening file: /lib/i386-linux-gnu/security/pam_umask.so  
+[33213.693048] User 1000 is closing file descriptor: 10  
+[33213.693101] User 1000 is closing file descriptor: 9  
+[33213.693108] User 1000 is closing file descriptor: 8  
+[33213.693111] User 1000 is opening file: /etc/pam.d/other  
+[33213.693143] User 1000 is opening file: /etc/pam.d/common-auth  
+[33213.693208] User 1000 is closing file descriptor: 9  
+[33213.693213] User 1000 is opening file: /etc/pam.d/common-account  
+[33213.693279] User 1000 is closing file descriptor: 9  
+[33213.693283] User 1000 is opening file: /etc/pam.d/common-password  
+[33213.693328] User 1000 is opening file: /lib/i386-linux-gnu/security/pam_gnome_keyring.so  
+[33213.693345] User 1000 is closing file descriptor: 10  
+[33213.693417] User 1000 is closing file descriptor: 9  
+[33213.693422] User 1000 is opening file: /etc/pam.d/common-session  
+[33213.693472] User 1000 is opening file: /lib/i386-linux-gnu/security/pam_systemd.so  
+[33213.693491] User 1000 is closing file descriptor: 10  
+[33213.693499] User 1000 is opening file: /usr/lib/sudo/librt.so.1  
+[33213.693503] User 1000 is opening file: /etc/ld.so.cache  
+[33213.693508] User 1000 is closing file descriptor: 10  
+[33213.693515] User 1000 is opening file: /lib/i386-linux-gnu/librt.so.1  
+[33213.693537] User 1000 is closing file descriptor: 10  
+[33213.693545] User 1000 is opening file: /usr/lib/sudo/libpam_misc.so.0  
+[33213.693550] User 1000 is opening file: /lib/i386-linux-gnu/libpam_misc.so.0  
+[33213.693568] User 1000 is closing file descriptor: 10  
+[33213.693573] User 1000 is opening file: /usr/lib/sudo/libgcc_s.so.1  
+[33213.693581] User 1000 is opening file: /lib/i386-linux-gnu/libgcc_s.so.1  
+[33213.693594] User 1000 is closing file descriptor: 10  
+[33213.693783] User 1000 is closing file descriptor: 9  
+[33213.693864] User 1000 is closing file descriptor: 8  
+[33213.693874] User 1000 is opening file: /var/run/sudo/ts/zonglinpeng  
+[33213.693880] User 1000 is opening file: /proc/stat  
+[33213.693968] User 1000 is closing file descriptor: 9  
+[33213.693992] User 1000 is closing file descriptor: 8  
+[33213.694065] User 1000 is closing file descriptor: 5  
+[33213.694156] User 1000 is closing file descriptor: 3  
+[33213.694162] User 1000 is closing file descriptor: 4  
+[33213.694174] User 1000 is opening file: /etc/passwd  
+[33213.694180] User 1000 is opening file: /etc/group  
+[33213.694186] User 1000 is opening file: /etc/passwd  
+[33213.694198] User 1000 is closing file descriptor: 8  
+[33213.694203] User 1000 is closing file descriptor: 3  
+[33213.694207] User 1000 is closing file descriptor: 4  
+[33213.694215] User 1000 is opening file: /etc/passwd  
+[33213.694224] User 1000 is closing file descriptor: 3  
+[33213.954915] Unloaded interceptor!
+[33321.224131] Interceptor: Found syscall table at address: 0xC17DE180
+[33321.224143] Loaded interceptor!
+[33336.467789] Found target PID 13283!
+[33336.467793] 	target 13283 has child 13285
+[33336.467795] Done: search children
+[33336.467796] 	target 13283 has sibling 13284
+[33336.467809] Done: serach siblings
+[33336.467811] 	target 13283 has parent 13282
+[33336.467813] 	target 13283 has parent 1697
+[33336.467814] 	target 13283 has parent 1677
+[33336.467816] 	target 13283 has parent 1008
+[33336.467817] 	target 13283 has parent 997
+[33336.467819] 	target 13283 has parent 747
+[33336.467821] 	target 13283 has parent 1
+[33336.467822] Done: search parents
+[33362.927229] Found target PID 12!
+[33362.927232] Done: search children
+[33362.927234] 	target 12 has sibling 13
+[33362.927235] 	target 12 has sibling 15
+[33362.927236] 	target 12 has sibling 16
+[33362.927237] 	target 12 has sibling 17
+[33362.927239] 	target 12 has sibling 18
+[33362.927240] 	target 12 has sibling 19
+[33362.927241] 	target 12 has sibling 20
+[33362.927242] 	target 12 has sibling 21
+[33362.927243] 	target 12 has sibling 22
+[33362.927244] 	target 12 has sibling 23
+[33362.927246] 	target 12 has sibling 24
+[33362.927247] 	target 12 has sibling 25
+[33362.927248] 	target 12 has sibling 26
+[33362.927249] 	target 12 has sibling 27
+[33362.927250] 	target 12 has sibling 28
+[33362.927251] 	target 12 has sibling 29
+[33362.927252] 	target 12 has sibling 34
+[33362.927254] 	target 12 has sibling 35
+[33362.927255] 	target 12 has sibling 36
+[33362.927256] 	target 12 has sibling 37
+[33362.927257] 	target 12 has sibling 53
+[33362.927258] 	target 12 has sibling 54
+[33362.927259] 	target 12 has sibling 57
+[33362.927260] 	target 12 has sibling 58
+[33362.927262] 	target 12 has sibling 59
+[33362.927263] 	target 12 has sibling 60
+[33362.927264] 	target 12 has sibling 61
+[33362.927265] 	target 12 has sibling 62
+[33362.927266] 	target 12 has sibling 63
+[33362.927267] 	target 12 has sibling 64
+[33362.927269] 	target 12 has sibling 65
+[33362.927270] 	target 12 has sibling 66
+[33362.927271] 	target 12 has sibling 67
+[33362.927272] 	target 12 has sibling 68
+[33362.927273] 	target 12 has sibling 69
+[33362.927274] 	target 12 has sibling 83
+[33362.927276] 	target 12 has sibling 84
+[33362.927277] 	target 12 has sibling 86
+[33362.927278] 	target 12 has sibling 123
+[33362.927279] 	target 12 has sibling 124
+[33362.927280] 	target 12 has sibling 125
+[33362.927281] 	target 12 has sibling 128
+[33362.927283] 	target 12 has sibling 129
+[33362.927284] 	target 12 has sibling 152
+[33362.927285] 	target 12 has sibling 154
+[33362.927286] 	target 12 has sibling 155
+[33362.927287] 	target 12 has sibling 191
+[33362.927288] 	target 12 has sibling 415
+[33362.927290] 	target 12 has sibling 446
+[33362.927291] 	target 12 has sibling 3776
+[33362.927292] 	target 12 has sibling 6631
+[33362.927293] 	target 12 has sibling 7463
+[33362.927295] 	target 12 has sibling 7900
+[33362.927296] 	target 12 has sibling 12455
+[33362.927297] 	target 12 has sibling 12807
+[33362.927298] 	target 12 has sibling 13252
+[33362.927299] Done: serach siblings
+[33362.927300] 	target 12 has parent 2
+[33362.927301] Done: search parents
+[33391.712102] Unloaded interceptor!

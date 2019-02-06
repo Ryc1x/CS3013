@@ -1,0 +1,10 @@
+Jan 30 17:42:09 rui-VirtualBox kernel: [161768.428087] cs3013_project2: loading out-of-tree module taints kernel.
+Jan 30 17:42:09 rui-VirtualBox kernel: [161768.428128] cs3013_project2: module verification failed: signature and/or required key missing - tainting kernel
+Jan 30 17:42:09 rui-VirtualBox kernel: [161768.568642] Interceptor: Found syscall table at address: 0xC17DB1C0
+Jan 30 17:42:24 rui-VirtualBox kernel: [161768.568644] Loaded interceptor!"'Hello world?!' More like 'Goodbye, world!' EXTERMINATE!" -- Dalek
+Jan 30 17:42:24 rui-VirtualBox kernel: [161783.600075] ‘Hello, world!’ -- syscall2
+Jan 30 17:42:24 rui-VirtualBox kernel: [161783.600082] ‘Hello, world!’ -- syscall3
+Jan 30 17:45:46 rui-VirtualBox kernel: [161970.226609] Unloaded interceptor!
+Jan 30 17:45:46 rui-VirtualBox kernel: [161985.924126] ‘Hello, world!’ -- syscall1
+Jan 30 17:45:46 rui-VirtualBox kernel: [161985.924145] ‘Hello, world!’ -- syscall2
+Jan 30 17:45:46 rui-VirtualBox kernel: [161985.924149] ‘Hello, world!’ -- syscall3

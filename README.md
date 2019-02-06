@@ -2,6 +2,7 @@
 
 - [Project 0: Recompiling Linux](project0/)
 - [Project 1: Midday Commander](project1/)
+- [Project 2: Kernel Interception](project2/)
 
 
 ## Notes
