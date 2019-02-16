@@ -83,7 +83,7 @@ void print_stats() {
     }
     printf("\n----------           NINJAS        ----------\n");
     for (int i = 0; i < ninjas; i++){
-        Actor* p = plist[i];
+        Actor* p = nlist[i];
         int visits = p->visits;
         totalVisits += (visits+1);
         printf("\nNinja [%d]:\n", i);
