@@ -29,6 +29,8 @@ Our streategy is:
    3. either:
      (a) ally hold the "turn" and thread is the first in queue amongst allies, OR
      (b) the thread is the first in entire queue
+ - "turn" will be swapped if n consecutive NINJA/PIRATE goes into the shop, where 
+   n is the number of customing teams.
 
 Once they satisfies the requirement, they can get in the building. And our testing 
 results shows that this streategy can effectively reduce the starving time and allow 
