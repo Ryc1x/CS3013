@@ -1,0 +1,105 @@
+#####################################################################################
+                              CS3013 Project 3
+                                 Problem 2
+                       Author: Rui Huang, Zonglin Peng
+#####################################################################################
+
+# INSTRUCTIONS
+To run the program, do:
+    $ make
+then:
+    $ ./driver [(optional) infinite loop]
+
+ - [infinite loop flag]: program will loop infinitely if it is set to 1
+
+
+# ANSWER FOR MN/MA
+
+- Phase 1: Minnesotan drivers
+When Minnesotan drivers drive at this intersection, the parallelism is prohibited. 
+Any driver approches the intersection first will hold the lock and lock the entire 
+intersection, preventing other drivers from entering the intersection, which avoids 
+deadlocks. After the dirver leaves the intersection, the lock will be released and 
+allowing other drivers to enter.
+This method is relatively unefficient because we strictly prohibit parallelism.
+
+- Phaes 2: Massachusetts drivers
+When Massachusetts drivers come here. The intersection will be modeled by four 
+locks instead of just one. That is because they are happy to enter the intersection 
+even if there are cars in it. So we need to have four locks for them.
+If drivers are not following some well-defined rules, deadlock will happen.
+For example, when four drivers from N,S,E,W directions want to make a left-turn 
+they will occupy NW, SW, NE, and SE blocks. Then we have a deadlock because all 
+drivers are waiting for others to move but no one can move. 
+To prevent such case, we need to define a rule for it. Our streategy is described 
+below.
+
+
+# DESCRIPTION
+
+In this program, I used the idea of "connections", which indicates if a car is going 
+to move from a quadrant to another, if so, the connection is occupied.
+e.g.:
+	Car A at NE want to move from NE -> NW, then connection "N" is occupied.
+The connection is "carlimit" variable in the program, which is updated when any 
+car moves.
+
+The algorihtm for this problem applies following streategies:
+ - When entering the intersection, check if:
+   1. The quadrant in front is free
+   2. Enter intersection won't let all connections be occupied
+ - When moving inside the intersection, check if:
+   1. The next quadrant is free
+ - No constriant for leaving
+
+
+# TESTING
+
+Here are a section of output from running:
+	$ ./drivers 1
+
+ENTER  [7]: dir[3], turn[2]
+LEAVE  [0]: destination[1]
+MOVING [7]: from[3], to[0]
+ENTER  [5]: dir[3], turn[0]
+LEAVE  [5]: destination[0]
+ENTER  [12]: dir[3], turn[1]
+LEAVE  [18]: destination[3]
+MOVING [17]: from[1], to[2]
+MOVING [7]: from[0], to[1]
+ENTER  [19]: dir[0], turn[0]
+LEAVE  [19]: destination[1]
+ENTER  [2]: dir[1], turn[2]
+LEAVE  [7]: destination[2]
+MOVING [12]: from[3], to[0]
+MOVING [17]: from[2], to[3]
+LEAVE  [17]: destination[0]
+ENTER  [5]: dir[2], turn[1]
+MOVING [5]: from[2], to[3]
+MOVING [2]: from[1], to[2]
+ENTER  [8]: dir[1], turn[2]
+LEAVE  [12]: destination[1]
+ENTER  [9]: dir[0], turn[1]
+LEAVE  [5]: destination[0]
+MOVING [2]: from[2], to[3]
+LEAVE  [2]: destination[0]
+ENTER  [5]: dir[3], turn[1]
+MOVING [8]: from[1], to[2]
+MOVING [9]: from[0], to[1]
+ENTER  [14]: dir[0], turn[2]
+LEAVE  [9]: destination[2]
+ENTER  [13]: dir[1], turn[0]
+LEAVE  [13]: destination[2]
+MOVING [14]: from[0], to[1]
+MOVING [5]: from[3], to[0]
+MOVING [8]: from[2], to[3]
+ENTER  [10]: dir[1], turn[2]
+LEAVE  [8]: destination[0]
+MOVING [14]: from[1], to[2]
+LEAVE  [5]: destination[1]
+ENTER  [15]: dir[0], turn[2]
+ENTER  [13]: dir[2], turn[2]
+LEAVE  [14]: destination[3]
+MOVING [13]: from[2], to[3]
+MOVING [10]: from[1], to[2]
+MOVING [15]: from[0], to[1]
