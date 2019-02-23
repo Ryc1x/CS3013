@@ -1,0 +1,12 @@
+1,map,0,1
+2,map,0,2
+m
+1,store,0,77
+m
+1,map,16,1
+m
+1,store,16,88
+m
+1,load,0,0
+m
+d
